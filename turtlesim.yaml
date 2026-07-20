@@ -1,8 +1,8 @@
 /turtlesim:
   ros__parameters:
-    background_b: 0
-    background_g: 86
-    background_r: 255
+    background_b: 160
+    background_g: 160
+    background_r: 160
     holonomic: false
     qos_overrides:
       /parameter_events:

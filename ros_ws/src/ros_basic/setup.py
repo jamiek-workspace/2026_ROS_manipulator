@@ -46,6 +46,8 @@ setup(
             'class_m1_sub = ros_basic.class_m1_sub:main',
             'class_m2_sub = ros_basic.class_m2_sub:main',
             'class_mt_sub = ros_basic.class_mt_sub:main',
+
+            'mv_turtle = ros_basic.mv_turtle:main',
         ],
     },
 )

@@ -1,0 +1,4 @@
+[console_scripts]
+class_pub = ros_basic.class_pub:main
+class_sub = ros_basic.class_sub:main
+simple_pub = ros_basic.simple_pub:main

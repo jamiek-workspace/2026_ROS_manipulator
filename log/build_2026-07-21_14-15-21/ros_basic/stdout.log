@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing ros_basic.egg-info/PKG-INFO
+writing dependency_links to ros_basic.egg-info/dependency_links.txt
+writing entry points to ros_basic.egg-info/entry_points.txt
+writing requirements to ros_basic.egg-info/requires.txt
+writing top-level names to ros_basic.egg-info/top_level.txt
+reading manifest file 'ros_basic.egg-info/SOURCES.txt'
+writing manifest file 'ros_basic.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/python3.12/site-packages/ros-basic.egg-link (link to .)
+Installing class_pub script to /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/ros_basic
+Installing class_sub script to /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/ros_basic
+Installing simple_pub script to /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/ros_basic
+
+Installed /home/jamiek/2026_ROS_manipulator/build/ros_basic
+running symlink_data

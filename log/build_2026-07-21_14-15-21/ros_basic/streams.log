@@ -1,0 +1,19 @@
+[1.051s] Invoking command in '/home/jamiek/2026_ROS_manipulator/build/ros_basic': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jamiek/2026_ROS_manipulator/build/ros_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jamiek/2026_ROS_manipulator/build/ros_basic/build --no-deps symlink_data
+[1.350s] running develop
+[1.543s] running egg_info
+[1.561s] writing ros_basic.egg-info/PKG-INFO
+[1.561s] writing dependency_links to ros_basic.egg-info/dependency_links.txt
+[1.561s] writing entry points to ros_basic.egg-info/entry_points.txt
+[1.562s] writing requirements to ros_basic.egg-info/requires.txt
+[1.562s] writing top-level names to ros_basic.egg-info/top_level.txt
+[1.598s] reading manifest file 'ros_basic.egg-info/SOURCES.txt'
+[1.598s] writing manifest file 'ros_basic.egg-info/SOURCES.txt'
+[1.618s] running build_ext
+[1.618s] Creating /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/python3.12/site-packages/ros-basic.egg-link (link to .)
+[1.619s] Installing class_pub script to /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/ros_basic
+[1.619s] Installing class_sub script to /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/ros_basic
+[1.619s] Installing simple_pub script to /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/ros_basic
+[1.619s] 
+[1.619s] Installed /home/jamiek/2026_ROS_manipulator/build/ros_basic
+[1.619s] running symlink_data
+[1.643s] Invoked command in '/home/jamiek/2026_ROS_manipulator/build/ros_basic' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jamiek/2026_ROS_manipulator/build/ros_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jamiek/2026_ROS_manipulator/build/ros_basic/build --no-deps symlink_data

@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating ros_basic.egg-info
+writing ros_basic.egg-info/PKG-INFO
+writing dependency_links to ros_basic.egg-info/dependency_links.txt
+writing entry points to ros_basic.egg-info/entry_points.txt
+writing requirements to ros_basic.egg-info/requires.txt
+writing top-level names to ros_basic.egg-info/top_level.txt
+writing manifest file 'ros_basic.egg-info/SOURCES.txt'
+reading manifest file 'ros_basic.egg-info/SOURCES.txt'
+writing manifest file 'ros_basic.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/python3.12/site-packages/ros-basic.egg-link (link to .)
+Installing class_pub script to /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/ros_basic
+Installing simple_pub script to /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/ros_basic
+
+Installed /home/jamiek/2026_ROS_manipulator/build/ros_basic
+running symlink_data
+creating /home/jamiek/2026_ROS_manipulator/install/ros_basic/share/ament_index
+creating /home/jamiek/2026_ROS_manipulator/install/ros_basic/share/ament_index/resource_index
+creating /home/jamiek/2026_ROS_manipulator/install/ros_basic/share/ament_index/resource_index/packages
+symbolically linking /home/jamiek/2026_ROS_manipulator/build/ros_basic/resource/ros_basic -> /home/jamiek/2026_ROS_manipulator/install/ros_basic/share/ament_index/resource_index/packages
+symbolically linking /home/jamiek/2026_ROS_manipulator/build/ros_basic/package.xml -> /home/jamiek/2026_ROS_manipulator/install/ros_basic/share/ros_basic

@@ -1,0 +1,25 @@
+[1.060s] Invoking command in '/home/jamiek/2026_ROS_manipulator/build/ros_basic': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jamiek/2026_ROS_manipulator/build/ros_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jamiek/2026_ROS_manipulator/build/ros_basic/build --no-deps symlink_data
+[1.362s] running develop
+[1.552s] running egg_info
+[1.553s] creating ros_basic.egg-info
+[1.571s] writing ros_basic.egg-info/PKG-INFO
+[1.571s] writing dependency_links to ros_basic.egg-info/dependency_links.txt
+[1.571s] writing entry points to ros_basic.egg-info/entry_points.txt
+[1.571s] writing requirements to ros_basic.egg-info/requires.txt
+[1.572s] writing top-level names to ros_basic.egg-info/top_level.txt
+[1.572s] writing manifest file 'ros_basic.egg-info/SOURCES.txt'
+[1.608s] reading manifest file 'ros_basic.egg-info/SOURCES.txt'
+[1.609s] writing manifest file 'ros_basic.egg-info/SOURCES.txt'
+[1.629s] running build_ext
+[1.629s] Creating /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/python3.12/site-packages/ros-basic.egg-link (link to .)
+[1.630s] Installing class_pub script to /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/ros_basic
+[1.630s] Installing simple_pub script to /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/ros_basic
+[1.630s] 
+[1.631s] Installed /home/jamiek/2026_ROS_manipulator/build/ros_basic
+[1.631s] running symlink_data
+[1.631s] creating /home/jamiek/2026_ROS_manipulator/install/ros_basic/share/ament_index
+[1.631s] creating /home/jamiek/2026_ROS_manipulator/install/ros_basic/share/ament_index/resource_index
+[1.631s] creating /home/jamiek/2026_ROS_manipulator/install/ros_basic/share/ament_index/resource_index/packages
+[1.631s] symbolically linking /home/jamiek/2026_ROS_manipulator/build/ros_basic/resource/ros_basic -> /home/jamiek/2026_ROS_manipulator/install/ros_basic/share/ament_index/resource_index/packages
+[1.632s] symbolically linking /home/jamiek/2026_ROS_manipulator/build/ros_basic/package.xml -> /home/jamiek/2026_ROS_manipulator/install/ros_basic/share/ros_basic
+[1.672s] Invoked command in '/home/jamiek/2026_ROS_manipulator/build/ros_basic' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jamiek/2026_ROS_manipulator/build/ros_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jamiek/2026_ROS_manipulator/build/ros_basic/build --no-deps symlink_data

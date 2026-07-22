@@ -13,6 +13,8 @@ ros_basic/class_sub.py
 ros_basic/class_time_pub.py
 ros_basic/header_pub.py
 ros_basic/mv_turtle.py
+ros_basic/qos_test_pub.py
+ros_basic/qos_test_sub.py
 ros_basic/simple_pub.py
 ros_basic.egg-info/PKG-INFO
 ros_basic.egg-info/SOURCES.txt

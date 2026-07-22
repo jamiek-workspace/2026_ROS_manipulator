@@ -1,0 +1,5 @@
+int32 inta
+int32 intb
+---
+int32 sum
+string odd

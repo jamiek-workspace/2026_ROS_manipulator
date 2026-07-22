@@ -48,6 +48,9 @@ setup(
             'class_mt_sub = ros_basic.class_mt_sub:main',
 
             'mv_turtle = ros_basic.mv_turtle:main',
+
+            'qos_test_pub = ros_basic.qos_test_pub:main',
+            'qos_test_sub = ros_basic.qos_test_sub:main',
         ],
     },
 )

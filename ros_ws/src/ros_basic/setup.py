@@ -21,6 +21,10 @@ setup(
             'share/' + package_name + '/launch',
             glob(os.path.join('launch', '*.launch.py'))
         ),
+        (
+            'share/' + package_name + '/param',
+            glob(os.path.join('param', '*.yaml'))
+        ),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -51,6 +55,14 @@ setup(
 
             'qos_test_pub = ros_basic.qos_test_pub:main',
             'qos_test_sub = ros_basic.qos_test_sub:main',
+            'user_int_sub = ros_basic.user_int_sub:main',
+            'service_server = ros_basic.service_server:main',
+            'service_thread_server = ros_basic.service_thread_server:main',
+            'service_client = ros_basic.service_client:main',
+
+            'my_param = ros_basic.my_param:main',
+            'param_async = ros_basic.param_async:main',
+            'param_launch = ros_basic.param_launch:main',
         ],
     },
 )

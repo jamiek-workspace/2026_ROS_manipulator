@@ -25,6 +25,10 @@ setup(
             'share/' + package_name + '/param',
             glob(os.path.join('param', '*.yaml'))
         ),
+        (
+            os.path.join('share', package_name, 'launch'),
+            glob('launch/*.launch.py'),
+        ),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -52,6 +56,7 @@ setup(
             'class_mt_sub = ros_basic.class_mt_sub:main',
 
             'mv_turtle = ros_basic.mv_turtle:main',
+            'mv_turtle_ns = ros_basic.mv_turtle_ns:main',
 
             'qos_test_pub = ros_basic.qos_test_pub:main',
             'qos_test_sub = ros_basic.qos_test_sub:main',
@@ -66,6 +71,7 @@ setup(
 
             'action_server = ros_basic.action_server:main',
             'action_client = ros_basic.action_client:main',
+            'action_thread_server = ros_basic.action_thread_server:main',
         ],
     },
 )

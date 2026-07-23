@@ -1,0 +1,25 @@
+/turtlesim:
+  ros__parameters:
+    background_b: 0
+    background_g: 255
+    background_r: 0
+    holonomic: false
+    qos_overrides:
+      /parameter_events:
+        publisher:
+          depth: 1000
+          durability: volatile
+          history: keep_last
+          reliability: reliable
+    start_type_description_service: true
+    use_sim_time: false
+/turtle1/move_turtle:
+  ros__parameters:
+    option: first
+    start_type_description_service: true
+    use_sim_time: false
+/turtle2/move_turtle:
+  ros__parameters:
+    option: second
+    start_type_description_service: true
+    use_sim_time: false

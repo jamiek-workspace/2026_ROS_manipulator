@@ -1,12 +1,15 @@
 import time
+
 import rclpy
-from rclpy.node import Node
 from action_msgs.msg import GoalStatus
-from user_interface.srv import AddAndOdd
 from rclpy.action import ActionClient
-from user_interface.action import Fibonacci
+from rclpy.action.client import ClientGoalHandle
 from rclpy.action.server import ServerGoalHandle
+from rclpy.node import Node
 from rclpy.task import Future
+from user_interface.action import Fibonacci
+
+
 
 
 class Action_client(Node):
@@ -20,7 +23,7 @@ class Action_client(Node):
         # 서버에 접속()
         self.action_client.wait_for_server(timeout_sec=1)
         # request 보내가 -> goal 보내기
-        self.action_client.send_goal_async(goal_msg, feedback_callback=self.feedback_callback)
+        self.future = self.action_client.send_goal_async(goal_msg, feedback_callback=self.feedback_callback)
         self.future.add_done_callback(self.goal_response_callback)
 
     def goal_response_callback(self, future: Future):
@@ -32,8 +35,10 @@ class Action_client(Node):
         self.get_result_future.add_done_callback(self.get_result_callback)
         pass
     
-
     def feedback_callback(self, msg: Fibonacci.Feedback):
+        pass
+
+    def get_result_callback(self, future: Future):
         pass
 
 

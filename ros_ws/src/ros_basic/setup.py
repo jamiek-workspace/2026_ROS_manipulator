@@ -65,6 +65,7 @@ setup(
             'param_launch = ros_basic.param_launch:main',
 
             'action_server = ros_basic.action_server:main',
+            'action_client = ros_basic.action_client:main',
         ],
     },
 )

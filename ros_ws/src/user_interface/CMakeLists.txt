@@ -13,6 +13,7 @@ find_package(std_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/UserInt.msg"
   "srv/AddAndOdd.srv"
+  "action/Fibonacci.action"
   DEPENDENCIES std_msgs
 )
 

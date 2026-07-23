@@ -63,6 +63,8 @@ setup(
             'my_param = ros_basic.my_param:main',
             'param_async = ros_basic.param_async:main',
             'param_launch = ros_basic.param_launch:main',
+
+            'action_server = ros_basic.action_server:main',
         ],
     },
 )

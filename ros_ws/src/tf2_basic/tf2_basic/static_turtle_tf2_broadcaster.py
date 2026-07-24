@@ -34,7 +34,7 @@ class M_pub(Node):
         # tf 데이터 저장
         t = TransformStamped()
         t.header.stamp = self.get_clock().now().to_msg()
-        t.header.frame_id = "world"  # 중요!!(상위 tf2 명시)
+        t.header.frame_id = "turtle1"  # 중요!!(상위 tf2 명시)
         t.child_frame_id = "joint1"
         x, y, z, w = euler_to_quaternion_pure(*self.transformation[3:])
         t.transform.translation.x = self.transformation[0]

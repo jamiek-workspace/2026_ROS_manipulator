@@ -1,4 +1,6 @@
 from setuptools import find_packages, setup
+from glob import glob
+import os
 
 package_name = 'tf2_basic'
 
@@ -7,9 +9,12 @@ setup(
     version='0.0.0',
     packages=find_packages(exclude=['test']),
     data_files=[
-        ('share/ament_index/resource_index/packages',
-            ['resource/' + package_name]),
+        ('share/ament_index/resource_index/packages', ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        ("share/" + package_name + "/launch", glob(os.path.join("launch", "*.launch.py"))),
+        ("share/" + package_name + "/urdf", glob(os.path.join("urdf", "*.*"))),
+        ("share/" + package_name + "/rviz", glob(os.path.join("rviz", "*.*"))),
+        ("share/" + package_name + "/meshes", glob(os.path.join("meshes", "*.*"))),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -28,6 +33,7 @@ setup(
             "dynamic_turtle_tf2_broadcaster = tf2_basic.dynamic_turtle_tf2_broadcaster:main",
             "tf_listener = tf2_basic.tf_listener:main",
             "turtle_tf_listener = tf2_basic.turtle_tf_listener:main",
+            "move_u2d2 = tf2_basic.move_u2d2:main",
         ],
     },
 )

@@ -1,12 +1,46 @@
 <?xml version="1.0"?>
-<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd"
+             schematypens="http://www.w3.org/2001/XMLSchema"?>
+
 <package format="3">
   <name>tf2_basic</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="utauloid.kk@gmail.com">jamiek</maintainer>
-  <license>TODO: License declaration</license>
+  <description>TF2 and OpenManipulator control practice package</description>
 
+  <maintainer email="utauloid.kk@gmail.com">
+    jamiek
+  </maintainer>
+
+  <license>Apache-2.0</license>
+
+  <!-- Python ROS2 노드 -->
+  <exec_depend>rclpy</exec_depend>
+
+  <!-- JointTrajectory, JointTrajectoryPoint -->
+  <exec_depend>trajectory_msgs</exec_depend>
+
+  <!-- GripperCommand action -->
+  <exec_depend>control_msgs</exec_depend>
+
+  <!-- GoalStatus -->
+  <exec_depend>action_msgs</exec_depend>
+
+  <!-- get_package_share_directory -->
+  <exec_depend>ament_index_python</exec_depend>
+
+  <!-- YAML 파일 로드 -->
+  <exec_depend>python3-yaml</exec_depend>
+
+  <!-- 기존 TF 관련 노드에서 사용하는 의존성 -->
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+
+  <!-- launch 파일 실행 -->
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <!-- 테스트 -->
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
   <test_depend>ament_pep257</test_depend>

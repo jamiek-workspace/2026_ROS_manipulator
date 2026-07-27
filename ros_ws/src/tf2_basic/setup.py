@@ -15,6 +15,10 @@ setup(
         ("share/" + package_name + "/urdf", glob(os.path.join("urdf", "*.*"))),
         ("share/" + package_name + "/rviz", glob(os.path.join("rviz", "*.*"))),
         ("share/" + package_name + "/meshes", glob(os.path.join("meshes", "*.*"))),
+        (
+            os.path.join("share", package_name, "data"),
+            glob("data/*.yaml"),
+        ),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -34,6 +38,9 @@ setup(
             "tf_listener = tf2_basic.tf_listener:main",
             "turtle_tf_listener = tf2_basic.turtle_tf_listener:main",
             "move_u2d2 = tf2_basic.move_u2d2:main",
+            "move_manipulator = tf2_basic.move_manipulator:main",
+            "dance_manipulator = tf2_basic.dance_manipulator:main",
+            "dance_manipulator2 = tf2_basic.dance_manipulator2:main",
         ],
     },
 )

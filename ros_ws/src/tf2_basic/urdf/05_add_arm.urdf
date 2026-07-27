@@ -390,6 +390,8 @@
       <geometry>
         <box size="0.08 0.08 0.08"/>
       </geometry>
+        <inertia
+        ixx="1e-3" ixy="0.0" ixz="0.0"
       <material name="blue"/>
     </visual>
     <collision>

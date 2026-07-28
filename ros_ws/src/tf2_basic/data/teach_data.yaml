@@ -109,3 +109,12 @@ patterns:
     - 0.012321
     duration: 1.0
     pause: 0.2
+  - positions:
+    - 0.240835
+    - -2.050932
+    - 1.491029
+    - 0.711767
+    gripper:
+    - 0.012321
+    duration: 1.0
+    pause: 0.2

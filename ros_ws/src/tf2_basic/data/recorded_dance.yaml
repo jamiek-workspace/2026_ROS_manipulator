@@ -1,0 +1,19 @@
+joint_names:
+- joint1
+- joint2
+- joint3
+- joint4
+
+joint_limits:
+  joint1:
+  - -3.14159265359
+  - 3.14159265359
+  joint2:
+  - -1.5
+  - 1.5
+  joint3:
+  - -1.5
+  - 1.4
+  joint4:
+  - -1.7
+  - 1.97

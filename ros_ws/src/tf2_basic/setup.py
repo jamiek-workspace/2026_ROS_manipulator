@@ -41,6 +41,9 @@ setup(
             "move_manipulator = tf2_basic.move_manipulator:main",
             "dance_manipulator = tf2_basic.dance_manipulator:main",
             "dance_manipulator2 = tf2_basic.dance_manipulator2:main",
+            "move_manipulator_action = tf2_basic.move_manipulator_action:main",
+            "dance_manipulator_action = tf2_basic.dance_manipulator_action:main",
+            "dance_manipulator_action2 = tf2_basic.dance_manipulator_action2:main",
         ],
     },
 )

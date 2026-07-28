@@ -1,0 +1,1 @@
+/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_playground/ament_cmake_core/open_manipulator_playgroundConfig.cmake

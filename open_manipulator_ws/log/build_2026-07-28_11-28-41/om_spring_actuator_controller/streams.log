@@ -1,0 +1,93 @@
+[0.035s] Invoking command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/om_spring_actuator_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/open_manipulator_ws/install/open_manipulator_bringup:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/src/open_manipulator/ros2_controller/om_spring_actuator_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_spring_actuator_controller
+[0.146s] -- The CXX compiler identification is GNU 13.3.0
+[0.172s] -- Detecting CXX compiler ABI info
+[0.345s] -- Detecting CXX compiler ABI info - done
+[0.359s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.359s] -- Detecting CXX compile features
+[0.360s] -- Detecting CXX compile features - done
+[0.373s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.636s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.738s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.836s] -- Found controller_interface: 4.45.2 (/opt/ros/jazzy/share/controller_interface/cmake)
+[0.967s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.995s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.024s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.059s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.463s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.542s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.549s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.596s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.730s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.740s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.784s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.798s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.826s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.880s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.942s] -- Found generate_parameter_library: 0.7.3 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[2.956s] -- Found parameter_traits: 0.7.3 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[3.007s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/tl_expected/cmake/tl_expectedConfig.cmake:37 (message):
+[3.007s]   Package 'tl_expected' is deprecated (This package will be removed in ROS 2
+[3.007s]   Lyrical Luth.
+[3.007s] 
+[3.007s]         Use tl/expected.hpp from libexpected-dev,
+[3.008s]         or rcpputils/tl_expected/expected.hpp if the system header is not available)
+[3.008s] Call Stack (most recent call first):
+[3.008s]   /opt/ros/jazzy/share/parameter_traits/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[3.008s]   /opt/ros/jazzy/share/parameter_traits/cmake/parameter_traitsConfig.cmake:41 (include)
+[3.008s]   /opt/ros/jazzy/share/generate_parameter_library/cmake/generate_parameter_library-extras.cmake:30 (find_package)
+[3.008s]   /opt/ros/jazzy/share/generate_parameter_library/cmake/generate_parameter_libraryConfig.cmake:41 (include)
+[3.008s]   CMakeLists.txt:28 (find_package)
+[3.008s] 
+[3.008s] [0m
+[3.220s] -- Configuring done (3.2s)
+[3.298s] -- Generating done (0.1s)
+[3.319s] -- Build files have been written to: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/om_spring_actuator_controller
+[3.387s] Invoked command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/om_spring_actuator_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/open_manipulator_ws/install/open_manipulator_bringup:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/src/open_manipulator/ros2_controller/om_spring_actuator_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_spring_actuator_controller
+[3.388s] Invoking command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/om_spring_actuator_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/open_manipulator_ws/install/open_manipulator_bringup:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/om_spring_actuator_controller -- -j16 -l16
+[3.896s] [ 25%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/om_spring_actuator_controller/include/om_spring_actuator_controller/spring_actuator_controller_parameters.hpp /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/src/open_manipulator/ros2_controller/om_spring_actuator_controller/src/spring_actuator_controller_parameters.yaml `[0m
+[4.787s] [ 50%] [34m[1mCreating deprecated header file /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/om_spring_actuator_controller/include/spring_actuator_controller_parameters.hpp[0m
+[4.823s] [ 50%] Built target spring_actuator_controller_parameters
+[4.868s] [ 75%] [32mBuilding CXX object CMakeFiles/spring_actuator_controller.dir/src/spring_actuator_controller.cpp.o[0m
+[19.141s] In file included from [01m[K/opt/ros/jazzy/include/parameter_traits/parameter_traits/parameter_traits.hpp:37[m[K,
+[19.143s]                  from [01m[K/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/om_spring_actuator_controller/include/om_spring_actuator_controller/spring_actuator_controller_parameters.hpp:26[m[K,
+[19.144s]                  from [01m[K/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/src/open_manipulator/ros2_controller/om_spring_actuator_controller/include/spring_actuator_controller/spring_actuator_controller.hpp:34[m[K,
+[19.144s]                  from [01m[K/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/src/open_manipulator/ros2_controller/om_spring_actuator_controller/src/spring_actuator_controller.cpp:17[m[K:
+[19.144s] [01m[K/opt/ros/jazzy/include/tl_expected/expected.hpp:18:167:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.[m[K’
+[19.144s]    18 | ected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."[01;36m[K)[m[K // NOLINT
+[19.144s]       |                                                                                                                                                     [01;36m[K^[m[K
+[19.144s] 
+[104.393s] [100%] [32m[1mLinking CXX shared library libspring_actuator_controller.so[0m
+[105.608s] [100%] Built target spring_actuator_controller
+[105.640s] Invoked command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/om_spring_actuator_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/open_manipulator_ws/install/open_manipulator_bringup:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/om_spring_actuator_controller -- -j16 -l16
+[105.651s] Invoking command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/om_spring_actuator_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/open_manipulator_ws/install/open_manipulator_bringup:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/om_spring_actuator_controller
+[105.668s] -- Install configuration: ""
+[105.669s] -- Execute custom install script
+[105.670s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_spring_actuator_controller/include/om_spring_actuator_controller/spring_actuator_controller_parameters.hpp
+[105.691s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller//spring_actuator_plugin.xml
+[105.727s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_spring_actuator_controller/include/spring_actuator_controller/spring_actuator_controller/spring_actuator_controller.hpp
+[105.758s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_spring_actuator_controller/include/spring_actuator_controller/spring_actuator_controller/visibility_control.h
+[105.777s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/environment/library_path.sh
+[105.816s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/environment/library_path.dsv
+[105.845s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_spring_actuator_controller/share/ament_index/resource_index/package_run_dependencies/om_spring_actuator_controller
+[105.871s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_spring_actuator_controller/share/ament_index/resource_index/parent_prefix_path/om_spring_actuator_controller
+[105.911s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/environment/ament_prefix_path.sh
+[105.930s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/environment/ament_prefix_path.dsv
+[105.949s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/environment/path.sh
+[105.973s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/environment/path.dsv
+[106.027s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/local_setup.bash
+[106.056s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/local_setup.sh
+[106.079s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/local_setup.zsh
+[106.104s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/local_setup.dsv
+[106.134s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/package.dsv
+[106.154s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_spring_actuator_controller/share/ament_index/resource_index/packages/om_spring_actuator_controller
+[106.173s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_spring_actuator_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/om_spring_actuator_controller
+[106.209s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[106.229s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/cmake/ament_cmake_export_targets-extras.cmake
+[106.256s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/cmake/om_spring_actuator_controllerConfig.cmake
+[106.277s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/cmake/om_spring_actuator_controllerConfig-version.cmake
+[106.303s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/package.xml
+[106.324s] -- Installing: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_spring_actuator_controller/lib/libspring_actuator_controller.so
+[106.328s] -- Set non-toolchain portion of runtime path of "/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_spring_actuator_controller/lib/libspring_actuator_controller.so" to ""
+[106.329s] -- Installing: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/cmake/export_spring_actuator_controllerExport.cmake
+[106.329s] -- Installing: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/cmake/export_spring_actuator_controllerExport-noconfig.cmake
+[106.334s] Invoked command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/om_spring_actuator_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/open_manipulator_ws/install/open_manipulator_bringup:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/om_spring_actuator_controller

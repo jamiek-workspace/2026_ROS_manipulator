@@ -1,0 +1,70 @@
+[0.049s] Invoking command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/om_gravity_compensation_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_bringup:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/src/open_manipulator/ros2_controller/om_gravity_compensation_controller -DCMAKE_INSTALL_PREFIX=/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_gravity_compensation_controller
+[0.067s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.426s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.434s] -- Found angles: 1.16.1 (/opt/ros/jazzy/share/angles/cmake)
+[0.436s] -- Found control_msgs: 5.9.0 (/opt/ros/jazzy/share/control_msgs/cmake)
+[0.469s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.479s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.492s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.512s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.755s] -- Found control_toolbox: 4.11.0 (/opt/ros/jazzy/share/control_toolbox/cmake)
+[0.805s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.808s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.916s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.022s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/tl_expected/cmake/tl_expectedConfig.cmake:37 (message):
+[1.022s]   Package 'tl_expected' is deprecated (This package will be removed in ROS 2
+[1.022s]   Lyrical Luth.
+[1.022s] 
+[1.022s]         Use tl/expected.hpp from libexpected-dev,
+[1.022s]         or rcpputils/tl_expected/expected.hpp if the system header is not available)
+[1.022s] Call Stack (most recent call first):
+[1.022s]   /opt/ros/jazzy/share/parameter_traits/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.023s]   /opt/ros/jazzy/share/parameter_traits/cmake/parameter_traitsConfig.cmake:41 (include)
+[1.023s]   /opt/ros/jazzy/share/control_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.023s]   /opt/ros/jazzy/share/control_toolbox/cmake/control_toolboxConfig.cmake:41 (include)
+[1.023s]   CMakeLists.txt:37 (find_package)
+[1.023s] 
+[1.023s] [0m
+[1.147s] -- Found eigen3_cmake_module: 0.3.1 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.149s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.234s] -- Found controller_interface: 4.45.2 (/opt/ros/jazzy/share/controller_interface/cmake)
+[1.305s] -- Found kdl_parser: 2.11.0 (/opt/ros/jazzy/share/kdl_parser/cmake)
+[1.467s] -- Configuring done (1.4s)
+[1.519s] -- Generating done (0.0s)
+[1.530s] -- Build files have been written to: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/om_gravity_compensation_controller
+[1.561s] Invoked command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/om_gravity_compensation_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_bringup:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/src/open_manipulator/ros2_controller/om_gravity_compensation_controller -DCMAKE_INSTALL_PREFIX=/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_gravity_compensation_controller
+[1.562s] Invoking command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/om_gravity_compensation_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_bringup:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/om_gravity_compensation_controller
+[1.661s] [ 50%] Built target gravity_compensation_controller_parameters
+[1.715s] [100%] Built target gravity_compensation_controller
+[1.740s] Invoked command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/om_gravity_compensation_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_bringup:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/om_gravity_compensation_controller
+[1.741s] Invoking command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/om_gravity_compensation_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_bringup:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/om_gravity_compensation_controller
+[1.764s] -- Install configuration: "Release"
+[1.766s] -- Execute custom install script
+[1.767s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_gravity_compensation_controller/include/om_gravity_compensation_controller/gravity_compensation_controller_parameters.hpp
+[1.767s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller//gravity_compensation_plugin.xml
+[1.768s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_gravity_compensation_controller/include/gravity_compensation_controller/gravity_compensation_controller/gravity_compensation_controller.hpp
+[1.768s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_gravity_compensation_controller/include/gravity_compensation_controller/gravity_compensation_controller/visibility_control.h
+[1.768s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/environment/library_path.sh
+[1.768s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/environment/library_path.dsv
+[1.768s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_gravity_compensation_controller/share/ament_index/resource_index/package_run_dependencies/om_gravity_compensation_controller
+[1.768s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_gravity_compensation_controller/share/ament_index/resource_index/parent_prefix_path/om_gravity_compensation_controller
+[1.769s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/environment/ament_prefix_path.sh
+[1.769s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/environment/ament_prefix_path.dsv
+[1.769s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/environment/path.sh
+[1.769s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/environment/path.dsv
+[1.769s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/local_setup.bash
+[1.769s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/local_setup.sh
+[1.769s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/local_setup.zsh
+[1.769s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/local_setup.dsv
+[1.769s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/package.dsv
+[1.789s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_gravity_compensation_controller/share/ament_index/resource_index/packages/om_gravity_compensation_controller
+[1.789s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_gravity_compensation_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/om_gravity_compensation_controller
+[1.789s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.790s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/cmake/ament_cmake_export_targets-extras.cmake
+[1.790s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/cmake/om_gravity_compensation_controllerConfig.cmake
+[1.790s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/cmake/om_gravity_compensation_controllerConfig-version.cmake
+[1.790s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/package.xml
+[1.792s] -- Up-to-date: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_gravity_compensation_controller/lib/libgravity_compensation_controller.so
+[1.792s] -- Up-to-date: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/cmake/export_gravity_compensation_controllerExport.cmake
+[1.792s] -- Up-to-date: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/cmake/export_gravity_compensation_controllerExport-release.cmake
+[1.797s] Invoked command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/om_gravity_compensation_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_bringup:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/om_gravity_compensation_controller

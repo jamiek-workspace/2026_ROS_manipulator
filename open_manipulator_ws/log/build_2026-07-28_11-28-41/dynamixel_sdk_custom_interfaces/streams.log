@@ -1,0 +1,245 @@
+[0.042s] Invoking command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/open_manipulator_ws/install/open_manipulator_bringup:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces
+[0.130s] -- The C compiler identification is GNU 13.3.0
+[0.248s] -- The CXX compiler identification is GNU 13.3.0
+[0.273s] -- Detecting C compiler ABI info
+[0.429s] -- Detecting C compiler ABI info - done
+[0.443s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.444s] -- Detecting C compile features
+[0.448s] -- Detecting C compile features - done
+[0.458s] -- Detecting CXX compiler ABI info
+[0.621s] -- Detecting CXX compiler ABI info - done
+[0.635s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.635s] -- Detecting CXX compile features
+[0.636s] -- Detecting CXX compile features - done
+[0.643s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.884s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.027s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.121s] -- Found builtin_interfaces: 2.0.4 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[1.193s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.218s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.244s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.272s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.299s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.345s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.946s] -- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[4.289s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.704s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.713s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.950s] -- Found PythonExtra: /usr/bin/python3  
+[6.019s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[6.210s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.260s] -- Configuring done (6.2s)
+[6.356s] -- Generating done (0.1s)
+[6.390s] -- Build files have been written to: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_sdk_custom_interfaces
+[6.421s] Invoked command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/open_manipulator_ws/install/open_manipulator_bringup:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces
+[6.423s] Invoking command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/open_manipulator_ws/install/open_manipulator_bringup:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_sdk_custom_interfaces -- -j16 -l16
+[6.637s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[6.637s] [  4%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[6.676s] [  4%] Built target ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces
+[7.378s] running egg_info
+[7.380s] creating dynamixel_sdk_custom_interfaces.egg-info
+[7.434s] writing dynamixel_sdk_custom_interfaces.egg-info/PKG-INFO
+[7.434s] writing dependency_links to dynamixel_sdk_custom_interfaces.egg-info/dependency_links.txt
+[7.434s] writing top-level names to dynamixel_sdk_custom_interfaces.egg-info/top_level.txt
+[7.435s] writing manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[7.568s] reading manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[7.572s] writing manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[7.620s] [  4%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_type_description
+[7.681s] [  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.690s] [  6%] Built target ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg
+[7.717s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.236s] [  8%] Built target dynamixel_sdk_custom_interfaces__rs
+[8.628s] [  8%] Built target dynamixel_sdk_custom_interfaces__cpp
+[9.476s] [ 11%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__description.c.o[0m
+[9.492s] [ 13%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.c.o[0m
+[9.496s] [ 15%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__description.c.o[0m
+[9.498s] [ 17%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.c.o[0m
+[9.499s] [ 20%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.c.o[0m
+[9.513s] [ 22%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.c.o[0m
+[9.955s] [ 24%] [32m[1mLinking C shared library libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so[0m
+[10.238s] [ 24%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c
+[10.293s] [ 26%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.298s] [ 28%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.321s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[10.321s] [ 35%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.321s] [ 33%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.333s] [ 37%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[11.758s] [ 40%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.cpp.o[0m
+[11.758s] [ 42%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.cpp.o[0m
+[11.835s] [ 44%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_sdk_custom_interfaces/msg/set_position__type_support.cpp.o[0m
+[11.846s] [ 46%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_sdk_custom_interfaces/srv/get_position__type_support.cpp.o[0m
+[12.015s] [ 48%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so[0m
+[12.181s] [ 51%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.c.o[0m
+[12.209s] [ 53%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_sdk_custom_interfaces/msg/detail/dds_fastrtps/set_position__type_support.cpp.o[0m
+[12.213s] [ 55%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_sdk_custom_interfaces/srv/detail/dds_fastrtps/get_position__type_support.cpp.o[0m
+[12.221s] [ 57%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.c.o[0m
+[12.354s] [ 57%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c
+[12.412s] [ 60%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support_c.cpp.o[0m
+[12.416s] [ 62%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support_c.cpp.o[0m
+[12.496s] [ 64%] [32m[1mLinking C shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[12.648s] [ 66%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_sdk_custom_interfaces/msg/set_position__type_support.cpp.o[0m
+[12.649s] [ 68%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_sdk_custom_interfaces/srv/get_position__type_support.cpp.o[0m
+[12.696s] [ 68%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c
+[14.331s] [ 71%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[15.149s] [ 71%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp
+[15.611s] [ 73%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so[0m
+[16.040s] [ 73%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp
+[16.052s] [ 75%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[16.361s] [ 75%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c
+[16.673s] [ 77%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[17.301s] [ 77%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[17.397s] [ 77%] Built target dynamixel_sdk_custom_interfaces
+[17.520s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[19.634s] [ 80%] Built target dynamixel_sdk_custom_interfaces__py
+[19.705s] [ 82%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/srv/_get_position_s.c.o[0m
+[19.722s] [ 84%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/msg/_set_position_s.c.o[0m
+[20.398s] [ 86%] [32m[1mLinking C shared library libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so[0m
+[20.634s] [ 86%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_py
+[20.719s] [ 88%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[20.743s] [ 91%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[20.750s] [ 93%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[21.134s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[21.153s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.so[0m
+[21.194s] [100%] [32m[1mLinking C shared module rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[21.281s] [100%] Built target dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c
+[21.287s] [100%] Built target dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c
+[21.325s] [100%] Built target dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c
+[21.425s] Invoked command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/open_manipulator_ws/install/open_manipulator_bringup:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_sdk_custom_interfaces -- -j16 -l16
+[21.426s] Invoking command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/open_manipulator_ws/install/open_manipulator_bringup:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_sdk_custom_interfaces
+[21.492s] -- Install configuration: ""
+[21.493s] -- Execute custom install script
+[21.493s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/dynamixel_sdk_custom_interfaces
+[21.545s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.json
+[21.577s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.json
+[21.631s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.h
+[21.677s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.h
+[21.750s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.h
+[21.783s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[21.816s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/set_position.h
+[21.860s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.h
+[21.904s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.h
+[21.937s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.h
+[21.978s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/get_position.h
+[22.022s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/library_path.sh
+[22.056s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/library_path.dsv
+[22.081s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_c.h
+[22.113s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[22.169s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_c.h
+[22.219s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__builder.hpp
+[22.248s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.hpp
+[22.327s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__traits.hpp
+[22.378s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.hpp
+[22.430s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[22.471s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/set_position.hpp
+[22.508s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__builder.hpp
+[22.571s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.hpp
+[22.625s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__traits.hpp
+[22.724s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.hpp
+[22.745s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/get_position.hpp
+[22.831s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_cpp.hpp
+[22.870s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[22.944s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_cpp.hpp
+[22.991s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_c.h
+[23.037s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[23.084s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_c.h
+[23.127s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_cpp.hpp
+[23.165s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_cpp.hpp
+[23.220s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/pythonpath.sh
+[23.260s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/pythonpath.dsv
+[23.314s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces-4.0.5-py3.12.egg-info/PKG-INFO
+[23.365s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces-4.0.5-py3.12.egg-info/SOURCES.txt
+[23.408s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces-4.0.5-py3.12.egg-info/dependency_links.txt
+[23.437s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces-4.0.5-py3.12.egg-info/top_level.txt
+[23.471s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/__init__.py
+[23.503s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[23.536s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[23.563s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[23.598s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.so
+[23.627s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[23.653s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.so
+[23.693s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/msg/__init__.py
+[23.731s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/msg/_set_position.py
+[23.777s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/msg/_set_position_s.c
+[23.813s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/srv/__init__.py
+[23.862s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/srv/_get_position.py
+[23.908s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/srv/_get_position_s.c
+[23.951s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[23.951s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.so
+[23.952s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.so
+[23.954s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/rust_packages/dynamixel_sdk_custom_interfaces
+[24.007s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/rust/Cargo.toml
+[24.051s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/rust/build.rs
+[24.097s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/rust/src/lib.rs
+[24.146s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/rust/src/msg.rs
+[24.195s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/rust/src/msg/rmw.rs
+[24.237s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/rust/src/srv.rs
+[24.282s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/rust/src/srv/rmw.rs
+[24.329s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.idl
+[24.388s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.idl
+[24.436s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.msg
+[24.479s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.srv
+[24.526s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_custom_interfaces
+[24.573s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_custom_interfaces
+[24.615s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/ament_prefix_path.sh
+[24.657s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/ament_prefix_path.dsv
+[24.700s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/path.sh
+[24.747s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/path.dsv
+[24.792s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.bash
+[24.846s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.sh
+[24.892s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.zsh
+[24.955s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.dsv
+[25.003s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv
+[25.051s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/packages/dynamixel_sdk_custom_interfaces
+[25.085s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[25.131s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[25.195s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[25.236s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[25.284s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[25.340s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[25.382s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[25.425s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[25.475s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfacesConfig.cmake
+[25.521s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfacesConfig-version.cmake
+[25.547s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.xml
+[25.576s] -- Installing: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so
+[25.582s] -- Set non-toolchain portion of runtime path of "/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so" to ""
+[25.582s] -- Installing: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so
+[25.584s] -- Set non-toolchain portion of runtime path of "/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[25.584s] -- Installing: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[25.587s] -- Set non-toolchain portion of runtime path of "/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[25.587s] -- Installing: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so
+[25.590s] -- Set non-toolchain portion of runtime path of "/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[25.590s] -- Installing: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so
+[25.590s] -- Set non-toolchain portion of runtime path of "/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so" to ""
+[25.591s] -- Installing: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so
+[25.594s] -- Set non-toolchain portion of runtime path of "/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[25.595s] -- Installing: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so
+[25.596s] -- Set non-toolchain portion of runtime path of "/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so" to ""
+[25.781s] Listing '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces'...
+[25.782s] Compiling '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/__init__.py'...
+[25.782s] Listing '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/msg'...
+[25.782s] Compiling '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/msg/__init__.py'...
+[25.782s] Compiling '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/msg/_set_position.py'...
+[25.782s] Listing '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/srv'...
+[25.782s] Compiling '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/srv/__init__.py'...
+[25.782s] Compiling '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/srv/_get_position.py'...
+[25.829s] -- Installing: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so
+[25.829s] -- Set non-toolchain portion of runtime path of "/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so" to ""
+[25.829s] -- Installing: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_cExport.cmake
+[25.829s] -- Installing: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[25.834s] -- Installing: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[25.834s] -- Installing: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[25.835s] -- Installing: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_cppExport.cmake
+[25.835s] -- Installing: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[25.836s] -- Installing: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[25.836s] -- Installing: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[25.837s] -- Installing: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[25.838s] -- Installing: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cExport.cmake
+[25.838s] -- Installing: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[25.839s] -- Installing: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[25.841s] -- Installing: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[25.842s] -- Installing: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cppExport.cmake
+[25.843s] -- Installing: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[25.843s] -- Installing: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_pyExport.cmake
+[25.844s] -- Installing: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[25.855s] Invoked command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/open_manipulator_ws/install/open_manipulator_bringup:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_sdk_custom_interfaces

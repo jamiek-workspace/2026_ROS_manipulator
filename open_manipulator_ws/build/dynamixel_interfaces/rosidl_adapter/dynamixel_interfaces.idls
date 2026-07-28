@@ -1,0 +1,4 @@
+/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_interfaces/rosidl_adapter/dynamixel_interfaces:msg/DynamixelState.idl
+/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_interfaces/rosidl_adapter/dynamixel_interfaces:srv/GetDataFromDxl.idl
+/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_interfaces/rosidl_adapter/dynamixel_interfaces:srv/SetDataToDxl.idl
+/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_interfaces/rosidl_adapter/dynamixel_interfaces:srv/RebootDxl.idl

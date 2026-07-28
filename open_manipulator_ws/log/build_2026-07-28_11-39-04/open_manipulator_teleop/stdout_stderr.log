@@ -1,0 +1,44 @@
+running develop
+Removing /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop/lib/python3.12/site-packages/open-manipulator-teleop.egg-link (link to .)
+running egg_info
+writing ../../../build/open_manipulator_teleop/open_manipulator_teleop.egg-info/PKG-INFO
+writing dependency_links to ../../../build/open_manipulator_teleop/open_manipulator_teleop.egg-info/dependency_links.txt
+writing entry points to ../../../build/open_manipulator_teleop/open_manipulator_teleop.egg-info/entry_points.txt
+writing requirements to ../../../build/open_manipulator_teleop/open_manipulator_teleop.egg-info/requires.txt
+writing top-level names to ../../../build/open_manipulator_teleop/open_manipulator_teleop.egg-info/top_level.txt
+reading manifest file '../../../build/open_manipulator_teleop/open_manipulator_teleop.egg-info/SOURCES.txt'
+writing manifest file '../../../build/open_manipulator_teleop/open_manipulator_teleop.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_teleop/build
+creating /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_teleop/build/lib
+creating /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_teleop/build/lib/open_manipulator_teleop
+copying open_manipulator_teleop/open_manipulator_x_teleop.py -> /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_teleop/build/lib/open_manipulator_teleop
+copying open_manipulator_teleop/omy_3m_teleop.py -> /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_teleop/build/lib/open_manipulator_teleop
+copying open_manipulator_teleop/omy_f3m_teleop.py -> /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_teleop/build/lib/open_manipulator_teleop
+copying open_manipulator_teleop/__init__.py -> /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_teleop/build/lib/open_manipulator_teleop
+copying open_manipulator_teleop/omx_f_teleop.py -> /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_teleop/build/lib/open_manipulator_teleop
+running install
+running install_lib
+creating /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop/lib/python3.12/site-packages/open_manipulator_teleop
+copying /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_teleop/build/lib/open_manipulator_teleop/open_manipulator_x_teleop.py -> /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop/lib/python3.12/site-packages/open_manipulator_teleop
+copying /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_teleop/build/lib/open_manipulator_teleop/omy_3m_teleop.py -> /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop/lib/python3.12/site-packages/open_manipulator_teleop
+copying /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_teleop/build/lib/open_manipulator_teleop/omy_f3m_teleop.py -> /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop/lib/python3.12/site-packages/open_manipulator_teleop
+copying /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_teleop/build/lib/open_manipulator_teleop/__init__.py -> /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop/lib/python3.12/site-packages/open_manipulator_teleop
+copying /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_teleop/build/lib/open_manipulator_teleop/omx_f_teleop.py -> /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop/lib/python3.12/site-packages/open_manipulator_teleop
+byte-compiling /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop/lib/python3.12/site-packages/open_manipulator_teleop/open_manipulator_x_teleop.py to open_manipulator_x_teleop.cpython-312.pyc
+byte-compiling /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop/lib/python3.12/site-packages/open_manipulator_teleop/omy_3m_teleop.py to omy_3m_teleop.cpython-312.pyc
+byte-compiling /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop/lib/python3.12/site-packages/open_manipulator_teleop/omy_f3m_teleop.py to omy_f3m_teleop.cpython-312.pyc
+byte-compiling /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop/lib/python3.12/site-packages/open_manipulator_teleop/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop/lib/python3.12/site-packages/open_manipulator_teleop/omx_f_teleop.py to omx_f_teleop.cpython-312.pyc
+running install_data
+copying resource/open_manipulator_teleop -> /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop/share/ament_index/resource_index/packages
+copying package.xml -> /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop/share/open_manipulator_teleop
+running install_egg_info
+Copying ../../../build/open_manipulator_teleop/open_manipulator_teleop.egg-info to /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop/lib/python3.12/site-packages/open_manipulator_teleop-5.0.0-py3.12.egg-info
+running install_scripts
+Installing omx_f_teleop script to /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop/lib/open_manipulator_teleop
+Installing omy_3m_teleop script to /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop/lib/open_manipulator_teleop
+Installing omy_f3m_teleop script to /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop/lib/open_manipulator_teleop
+Installing open_manipulator_x_teleop script to /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop/lib/open_manipulator_teleop
+writing list of installed files to '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_teleop/install.log'

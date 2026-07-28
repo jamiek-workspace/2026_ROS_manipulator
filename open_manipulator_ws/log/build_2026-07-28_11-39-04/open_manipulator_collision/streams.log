@@ -1,0 +1,52 @@
+[0.041s] Invoking command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_collision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_bringup:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/src/open_manipulator/open_manipulator_collision -DCMAKE_INSTALL_PREFIX=/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision
+[0.063s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.409s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.418s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.452s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.462s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.476s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.495s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.572s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.574s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.653s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.758s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.781s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.829s] -- Found visualization_msgs: 5.3.8 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[0.872s] -- Found kdl_parser: 2.11.0 (/opt/ros/jazzy/share/kdl_parser/cmake)
+[0.874s] -- Found eigen3_cmake_module: 0.3.1 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.876s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.878s] -- Found urdf: 2.10.1 (/opt/ros/jazzy/share/urdf/cmake)
+[1.048s] -- Configuring done (1.0s)
+[1.072s] -- Generating done (0.0s)
+[1.077s] -- Build files have been written to: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_collision
+[1.104s] Invoked command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_collision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_bringup:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/src/open_manipulator/open_manipulator_collision -DCMAKE_INSTALL_PREFIX=/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision
+[1.106s] Invoking command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_collision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_bringup:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_collision
+[1.245s] [100%] Built target self_collision_node
+[1.273s] Invoked command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_collision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_bringup:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_collision
+[1.275s] Invoking command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_collision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_bringup:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_collision
+[1.292s] -- Install configuration: "Release"
+[1.292s] -- Execute custom install script
+[1.293s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/lib/open_manipulator_collision/self_collision_node
+[1.293s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/include//open_manipulator_collision/self_collision_node.hpp
+[1.294s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/self_collision.launch.py
+[1.294s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/library_path.sh
+[1.294s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/library_path.dsv
+[1.294s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/ament_index/resource_index/package_run_dependencies/open_manipulator_collision
+[1.294s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/ament_index/resource_index/parent_prefix_path/open_manipulator_collision
+[1.294s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/ament_prefix_path.sh
+[1.295s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/ament_prefix_path.dsv
+[1.295s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/path.sh
+[1.295s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/path.dsv
+[1.295s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/local_setup.bash
+[1.295s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/local_setup.sh
+[1.295s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/local_setup.zsh
+[1.296s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/local_setup.dsv
+[1.296s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/package.dsv
+[1.323s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/ament_index/resource_index/packages/open_manipulator_collision
+[1.327s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.327s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.327s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/ament_cmake_export_libraries-extras.cmake
+[1.327s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/open_manipulator_collisionConfig.cmake
+[1.327s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/open_manipulator_collisionConfig-version.cmake
+[1.328s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/package.xml
+[1.337s] Invoked command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_collision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_bringup:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_collision

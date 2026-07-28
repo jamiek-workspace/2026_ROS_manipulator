@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_collision/self_collision_node" "TARGETS" "self_collision_node" "DESTINATION" "lib/open_manipulator_collision")

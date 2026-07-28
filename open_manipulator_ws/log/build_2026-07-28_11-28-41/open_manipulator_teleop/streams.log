@@ -1,0 +1,28 @@
+[2.153s] Invoking command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_teleop': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_teleop/build --no-deps symlink_data
+[3.240s] running develop
+[3.644s] running egg_info
+[3.644s] creating open_manipulator_teleop.egg-info
+[3.681s] writing open_manipulator_teleop.egg-info/PKG-INFO
+[3.681s] writing dependency_links to open_manipulator_teleop.egg-info/dependency_links.txt
+[3.681s] writing entry points to open_manipulator_teleop.egg-info/entry_points.txt
+[3.681s] writing requirements to open_manipulator_teleop.egg-info/requires.txt
+[3.681s] writing top-level names to open_manipulator_teleop.egg-info/top_level.txt
+[3.681s] writing manifest file 'open_manipulator_teleop.egg-info/SOURCES.txt'
+[3.744s] reading manifest file 'open_manipulator_teleop.egg-info/SOURCES.txt'
+[3.745s] writing manifest file 'open_manipulator_teleop.egg-info/SOURCES.txt'
+[3.779s] running build_ext
+[3.779s] Creating /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop/lib/python3.12/site-packages/open-manipulator-teleop.egg-link (link to .)
+[3.780s] Installing omx_f_teleop script to /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop/lib/open_manipulator_teleop
+[3.780s] Installing omy_3m_teleop script to /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop/lib/open_manipulator_teleop
+[3.780s] Installing omy_f3m_teleop script to /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop/lib/open_manipulator_teleop
+[3.781s] Installing open_manipulator_x_teleop script to /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop/lib/open_manipulator_teleop
+[3.781s] 
+[3.783s] Installed /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_teleop
+[3.783s] running symlink_data
+[3.783s] creating /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop/share/ament_index
+[3.783s] creating /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop/share/ament_index/resource_index
+[3.783s] creating /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop/share/ament_index/resource_index/packages
+[3.783s] symbolically linking /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_teleop/resource/open_manipulator_teleop -> /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop/share/ament_index/resource_index/packages
+[3.783s] symbolically linking /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_teleop/package.xml -> /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop/share/open_manipulator_teleop
+[3.784s] creating /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop/share/open_manipulator_teleop/launch
+[3.916s] Invoked command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_teleop' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_teleop/build --no-deps symlink_data

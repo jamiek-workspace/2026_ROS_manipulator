@@ -1,0 +1,1 @@
+/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/src/open_manipulator/open_manipulator_playground/include/open_manipulator_playground/omy_3m_hello_moveit.h

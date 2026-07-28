@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robotis_interfaces/msg/TactileSensor.msg
+// generated code does not contain a copyright notice
+
+
+module robotis_interfaces {
+  module msg {
+    typedef string string__9[9];
+    typedef uint8 uint8__9[9];
+    @verbatim (language="comment", text=
+      "TactileSensor.msg")
+    struct TactileSensor {
+      @verbatim (language="comment", text=
+        "Name of the tactile sensor source.")
+      string sensor_name;
+
+      @verbatim (language="comment", text=
+        "Present pressure values (0-255) from the tactile sensor (3x3 grid base)" "\n"
+        "Pressure indices are ordered from top to bottom, and from left to right within each row.")
+      string__9 pressure_names;
+
+      uint8__9 pressure_values;
+    };
+  };
+};

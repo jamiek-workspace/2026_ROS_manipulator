@@ -1,0 +1,1 @@
+/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/robotis_interfaces/rosidl_typesupport_fastrtps_cpp/robotis_interfaces/msg/detail/hand_pressures__rosidl_typesupport_fastrtps_cpp.hpp

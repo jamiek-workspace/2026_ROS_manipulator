@@ -1,0 +1,31 @@
+[0.139s] Invoking command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_hardware_interface': AMENT_PREFIX_PATH=/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_interfaces:/home/jamiek/open_manipulator_ws/install/open_manipulator:/home/jamiek/open_manipulator_ws/install/open_manipulator_playground:/home/jamiek/open_manipulator_ws/install/robotis_interfaces:/home/jamiek/open_manipulator_ws/install/open_manipulator_moveit_config:/home/jamiek/open_manipulator_ws/install/open_manipulator_gui:/home/jamiek/open_manipulator_ws/install/open_manipulator_description:/home/jamiek/open_manipulator_ws/install/open_manipulator_collision:/home/jamiek/open_manipulator_ws/install/om_spring_actuator_controller:/home/jamiek/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster:/home/jamiek/open_manipulator_ws/install/om_gravity_compensation_controller:/home/jamiek/open_manipulator_ws/install/dynamixel_sdk_examples:/home/jamiek/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces:/home/jamiek/open_manipulator_ws/install/dynamixel_hardware_interface:/home/jamiek/open_manipulator_ws/install/dynamixel_sdk:/home/jamiek/open_manipulator_ws/install/dynamixel_interfaces:/home/jamiek/2026_ROS_manipulator/ros_ws/install/user_interface:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/jamiek/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/open_manipulator_ws/install/open_manipulator_bringup:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/src/dynamixel_hardware_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_hardware_interface
+[1.736s] -- The C compiler identification is GNU 13.3.0
+[2.130s] -- The CXX compiler identification is GNU 13.3.0
+[2.201s] -- Detecting C compiler ABI info
+[2.725s] -- Detecting C compiler ABI info - done
+[2.738s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.738s] -- Detecting C compile features
+[2.739s] -- Detecting C compile features - done
+[2.782s] -- Detecting CXX compiler ABI info
+[3.206s] -- Detecting CXX compiler ABI info - done
+[3.215s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.216s] -- Detecting CXX compile features
+[3.218s] -- Detecting CXX compile features - done
+[3.267s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.657s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.001s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.464s] -- Found hardware_interface: 4.45.2 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[4.714s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.754s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.810s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.888s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.559s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[5.725s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.740s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.889s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[7.247s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[7.261s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[7.348s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[7.352s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[7.361s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[7.392s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default

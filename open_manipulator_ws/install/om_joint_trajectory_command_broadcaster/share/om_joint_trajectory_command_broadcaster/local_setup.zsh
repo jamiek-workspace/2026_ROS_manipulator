@@ -1,0 +1,1 @@
+/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/om_joint_trajectory_command_broadcaster/ament_cmake_environment_hooks/local_setup.zsh

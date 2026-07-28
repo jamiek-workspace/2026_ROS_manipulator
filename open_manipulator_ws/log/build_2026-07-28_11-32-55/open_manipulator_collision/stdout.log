@@ -1,0 +1,48 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found visualization_msgs: 5.3.8 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+-- Found kdl_parser: 2.11.0 (/opt/ros/jazzy/share/kdl_parser/cmake)
+-- Found eigen3_cmake_module: 0.3.1 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found urdf: 2.10.1 (/opt/ros/jazzy/share/urdf/cmake)
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_collision
+[ 50%] [32mBuilding CXX object CMakeFiles/self_collision_node.dir/src/self_collision_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable self_collision_node[0m
+[100%] Built target self_collision_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/lib/open_manipulator_collision/self_collision_node
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/include//open_manipulator_collision/self_collision_node.hpp
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/self_collision.launch.py
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/library_path.sh
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/library_path.dsv
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/ament_index/resource_index/package_run_dependencies/open_manipulator_collision
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/ament_index/resource_index/parent_prefix_path/open_manipulator_collision
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/ament_prefix_path.sh
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/ament_prefix_path.dsv
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/path.sh
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/path.dsv
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/local_setup.bash
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/local_setup.sh
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/local_setup.zsh
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/local_setup.dsv
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/package.dsv
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/ament_index/resource_index/packages/open_manipulator_collision
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/open_manipulator_collisionConfig.cmake
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/open_manipulator_collisionConfig-version.cmake
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/package.xml

@@ -1,0 +1,1 @@
+/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/robotis_interfaces/rosidl_generator_rs/robotis_interfaces/rust/src/lib.rs

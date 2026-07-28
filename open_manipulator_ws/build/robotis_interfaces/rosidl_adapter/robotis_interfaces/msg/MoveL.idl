@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robotis_interfaces/msg/MoveL.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Duration.idl"
+#include "geometry_msgs/msg/PoseStamped.idl"
+
+module robotis_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Target end-effector pose for the linear move command.")
+    struct MoveL {
+      geometry_msgs::msg::PoseStamped pose;
+
+      @verbatim (language="comment", text=
+        "Desired time to reach the target pose from the current pose.")
+      builtin_interfaces::msg::Duration time_from_start;
+    };
+  };
+};

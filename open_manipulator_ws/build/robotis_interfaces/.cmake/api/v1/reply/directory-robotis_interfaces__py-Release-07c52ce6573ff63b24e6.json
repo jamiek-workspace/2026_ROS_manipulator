@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "robotis_interfaces__py",
+		"source" : "/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/robotis_interfaces/robotis_interfaces__py"
+	}
+}

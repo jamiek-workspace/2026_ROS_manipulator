@@ -1,0 +1,1 @@
+/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/robotis_interfaces/rosidl_generator_c/robotis_interfaces/msg/detail/hand_pressures__type_support.h

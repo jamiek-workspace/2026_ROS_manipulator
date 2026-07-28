@@ -1,0 +1,245 @@
+[0.053s] Invoking command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/open_manipulator_ws/install/open_manipulator_bringup:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/src/DynamixelSDK/ros/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk
+[0.169s] -- The C compiler identification is GNU 13.3.0
+[0.275s] -- The CXX compiler identification is GNU 13.3.0
+[0.300s] -- Detecting C compiler ABI info
+[0.457s] -- Detecting C compiler ABI info - done
+[0.468s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.469s] -- Detecting C compile features
+[0.469s] -- Detecting C compile features - done
+[0.482s] -- Detecting CXX compiler ABI info
+[0.640s] -- Detecting CXX compiler ABI info - done
+[0.649s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.650s] -- Detecting CXX compile features
+[0.650s] -- Detecting CXX compile features - done
+[0.656s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.936s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.067s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.603s] -- Configuring done (1.5s)
+[1.618s] -- Generating done (0.0s)
+[1.621s] -- Build files have been written to: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_sdk
+[1.633s] Invoked command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/open_manipulator_ws/install/open_manipulator_bringup:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/src/DynamixelSDK/ros/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk
+[1.635s] Invoking command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/open_manipulator_ws/install/open_manipulator_bringup:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_sdk -- -j16 -l16
+[1.724s] [ 11%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o[0m
+[1.724s] [ 11%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o[0m
+[1.728s] [ 22%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o[0m
+[1.728s] [ 22%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o[0m
+[1.733s] [ 27%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o[0m
+[1.734s] [ 33%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o[0m
+[1.735s] [ 38%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o[0m
+[1.738s] [ 44%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_fast_bulk_read.cpp.o[0m
+[1.747s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_fast_sync_read.cpp.o[0m
+[1.749s] [ 50%] Built target ament_cmake_python_symlink_dynamixel_easy_sdk
+[1.750s] [ 55%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_handler.cpp.o[0m
+[1.751s] [ 61%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o[0m
+[1.757s] [ 61%] Built target ament_cmake_python_symlink_dynamixel_sdk
+[1.772s] [ 66%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/dynamixel_error.cpp.o[0m
+[1.777s] [ 77%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/control_table.cpp.o[0m
+[1.781s] [ 77%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/connector.cpp.o[0m
+[1.836s] [ 83%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/group_executor.cpp.o[0m
+[2.079s] [ 88%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/motor.cpp.o[0m
+[2.360s] [ 94%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o[0m
+[2.410s] running egg_info
+[2.410s] creating dynamixel_sdk.egg-info
+[2.441s] writing dynamixel_sdk.egg-info/PKG-INFO
+[2.447s] writing dependency_links to dynamixel_sdk.egg-info/dependency_links.txt
+[2.447s] writing top-level names to dynamixel_sdk.egg-info/top_level.txt
+[2.447s] writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[2.555s] reading manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[2.555s] writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[2.638s] running egg_info
+[2.647s] creating dynamixel_easy_sdk.egg-info
+[2.670s] [ 94%] Built target ament_cmake_python_build_dynamixel_sdk_egg
+[2.738s] writing dynamixel_easy_sdk.egg-info/PKG-INFO
+[2.738s] writing dependency_links to dynamixel_easy_sdk.egg-info/dependency_links.txt
+[2.738s] writing top-level names to dynamixel_easy_sdk.egg-info/top_level.txt
+[2.739s] writing manifest file 'dynamixel_easy_sdk.egg-info/SOURCES.txt'
+[2.878s] reading manifest file 'dynamixel_easy_sdk.egg-info/SOURCES.txt'
+[2.882s] writing manifest file 'dynamixel_easy_sdk.egg-info/SOURCES.txt'
+[3.003s] [ 94%] Built target ament_cmake_python_build_dynamixel_easy_sdk_egg
+[3.998s] [100%] [32m[1mLinking CXX shared library libdynamixel_sdk.so[0m
+[4.203s] [100%] Built target dynamixel_sdk
+[4.222s] Invoked command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/open_manipulator_ws/install/open_manipulator_bringup:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_sdk -- -j16 -l16
+[4.224s] Invoking command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/open_manipulator_ws/install/open_manipulator_bringup:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_sdk
+[4.240s] -- Install configuration: ""
+[4.240s] -- Execute custom install script
+[4.242s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/connector.hpp
+[4.261s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/control_table.hpp
+[4.279s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/data_types.hpp
+[4.296s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/dynamixel_easy_sdk.hpp
+[4.311s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/dynamixel_error.hpp
+[4.327s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/group_executor.hpp
+[4.344s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/motor.hpp
+[4.359s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[4.375s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[4.390s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[4.406s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_bulk_read.h
+[4.425s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_sync_read.h
+[4.446s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_handler.h
+[4.467s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[4.484s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[4.500s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[4.513s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[4.528s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[4.545s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[4.562s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[4.576s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[4.592s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[4.610s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[4.629s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/2xc430_w250.model
+[4.649s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/2xl430_w250.model
+[4.665s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/dynamixel.model
+[4.685s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/h42_20_s300_ra.model
+[4.700s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/h54_100_s500_ra.model
+[4.722s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/h54_200_s500_ra.model
+[4.739s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/m42_10_s260_ra.model
+[4.758s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/m54_40_s250_ra.model
+[4.780s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/m54_60_s250_ra.model
+[4.799s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/mx_106.model
+[4.819s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/mx_28.model
+[4.842s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/mx_64.model
+[4.857s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ph42_020_s300.model
+[4.876s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ph54_100_s500.model
+[4.896s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ph54_200_s500.model
+[4.913s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/pm42_010_s260.model
+[4.936s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/pm54_040_s250.model
+[4.952s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/pm54_060_s250.model
+[4.970s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/rh_p12_rn.model
+[4.988s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m181.model
+[5.014s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m181_fw52.model
+[5.035s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m288.model
+[5.064s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m288_fw52.model
+[5.080s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t181.model
+[5.100s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t181_fw52.model
+[5.120s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t288.model
+[5.144s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t288_fw52.model
+[5.158s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc430_w150.model
+[5.177s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc430_w240.model
+[5.200s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd430_t210.model
+[5.224s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd430_t350.model
+[5.245s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd540_t150.model
+[5.263s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd540_t270.model
+[5.282s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_v210.model
+[5.300s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_v350.model
+[5.324s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_w210.model
+[5.343s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_w350.model
+[5.367s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_v150.model
+[5.407s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_v270.model
+[5.445s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_w150.model
+[5.485s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_w270.model
+[5.525s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl320.model
+[5.560s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m077.model
+[5.588s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m077_fw52.model
+[5.623s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m288.model
+[5.679s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m288_fw52.model
+[5.714s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl430_w250.model
+[5.749s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm430_w210.model
+[5.785s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm430_w350.model
+[5.823s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm540_w150.model
+[5.864s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm540_w270.model
+[5.901s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw430_t200.model
+[5.939s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw430_t333.model
+[5.971s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw540_h260.model
+[6.006s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw540_t140.model
+[6.049s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw540_t260.model
+[6.085s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_a051.model
+[6.117s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_a099.model
+[6.152s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_b001.model
+[6.185s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_m001.model
+[6.205s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_r051.model
+[6.225s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_r099.model
+[6.244s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_a051.model
+[6.277s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_a099.model
+[6.311s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_b001.model
+[6.346s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_m001.model
+[6.384s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_r051.model
+[6.419s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_r099.model
+[6.459s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.sh
+[6.499s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.dsv
+[6.537s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-4.0.5-py3.12.egg-info/PKG-INFO
+[6.569s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-4.0.5-py3.12.egg-info/SOURCES.txt
+[6.608s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-4.0.5-py3.12.egg-info/dependency_links.txt
+[6.649s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-4.0.5-py3.12.egg-info/top_level.txt
+[6.709s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/__init__.py
+[6.761s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_read.cpp
+[6.808s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_read.py
+[6.845s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_write.cpp
+[6.874s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_write.py
+[6.906s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_fast_bulk_read.cpp
+[6.935s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_fast_sync_read.cpp
+[6.978s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_handler.cpp
+[7.023s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_read.cpp
+[7.082s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_read.py
+[7.131s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_write.cpp
+[7.183s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_write.py
+[7.213s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/packet_handler.cpp
+[7.278s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/packet_handler.py
+[7.312s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler.cpp
+[7.354s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler.py
+[7.421s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_arduino.cpp
+[7.474s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_linux.cpp
+[7.541s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_mac.cpp
+[7.583s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_windows.cpp
+[7.632s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol1_packet_handler.cpp
+[7.678s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol1_packet_handler.py
+[7.727s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol2_packet_handler.cpp
+[7.768s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol2_packet_handler.py
+[7.823s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/robotis_def.py
+[7.863s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk-4.0.5-py3.12.egg-info/PKG-INFO
+[7.915s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk-4.0.5-py3.12.egg-info/SOURCES.txt
+[7.957s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk-4.0.5-py3.12.egg-info/dependency_links.txt
+[8.012s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk-4.0.5-py3.12.egg-info/top_level.txt
+[8.062s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/__init__.py
+[8.113s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/connector.cpp
+[8.164s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/connector.py
+[8.227s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/control_table.cpp
+[8.268s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/control_table.py
+[8.312s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/data_types.py
+[8.361s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/dynamixel_error.cpp
+[8.395s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/dynamixel_error.py
+[8.443s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/group_executor.cpp
+[8.488s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/group_executor.py
+[8.517s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/motor.cpp
+[8.567s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/motor.py
+[8.610s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[8.644s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[8.708s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[8.746s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[8.790s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[8.834s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[8.875s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[8.916s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[8.957s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[8.997s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[9.040s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[9.078s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[9.124s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[9.170s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[9.214s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_targets-extras.cmake
+[9.283s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.335s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[9.399s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[9.438s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[9.481s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[9.533s] -- Installing: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[9.843s] Listing '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk'...
+[9.843s] Compiling '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/__init__.py'...
+[9.843s] Compiling '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_read.py'...
+[9.844s] Compiling '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_write.py'...
+[9.844s] Compiling '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_read.py'...
+[9.844s] Compiling '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_write.py'...
+[9.844s] Compiling '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/packet_handler.py'...
+[9.844s] Compiling '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler.py'...
+[9.844s] Compiling '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol1_packet_handler.py'...
+[9.844s] Compiling '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol2_packet_handler.py'...
+[9.844s] Compiling '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/robotis_def.py'...
+[10.097s] Listing '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk'...
+[10.097s] Compiling '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/__init__.py'...
+[10.097s] Compiling '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/connector.py'...
+[10.097s] Compiling '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/control_table.py'...
+[10.098s] Compiling '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/data_types.py'...
+[10.098s] Compiling '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/dynamixel_error.py'...
+[10.098s] Compiling '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/group_executor.py'...
+[10.098s] Compiling '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/motor.py'...
+[10.119s] -- Installing: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport.cmake
+[10.119s] -- Installing: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport-noconfig.cmake
+[10.126s] Invoked command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/open_manipulator_ws/install/open_manipulator_bringup:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_sdk

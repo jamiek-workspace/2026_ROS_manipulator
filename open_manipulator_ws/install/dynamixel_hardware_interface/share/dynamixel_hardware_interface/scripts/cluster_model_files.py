@@ -1,0 +1,1 @@
+/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/src/dynamixel_hardware_interface/scripts/cluster_model_files.py

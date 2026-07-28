@@ -1,0 +1,1 @@
+/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_gui/ament_cmake_environment_hooks/local_setup.sh

@@ -1,0 +1,8 @@
+msg/HandJoints.idl
+msg/HandJoints.msg
+msg/HandPressures.idl
+msg/HandPressures.msg
+msg/MoveL.idl
+msg/MoveL.msg
+msg/TactileSensor.idl
+msg/TactileSensor.msg

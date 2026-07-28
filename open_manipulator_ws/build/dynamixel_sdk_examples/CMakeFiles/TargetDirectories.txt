@@ -1,0 +1,10 @@
+/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_sdk_examples/CMakeFiles/uninstall.dir
+/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_sdk_examples/CMakeFiles/dynamixel_sdk_examples_uninstall.dir
+/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_sdk_examples/CMakeFiles/read_write_node.dir
+/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_sdk_examples/CMakeFiles/test.dir
+/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_sdk_examples/CMakeFiles/edit_cache.dir
+/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_sdk_examples/CMakeFiles/rebuild_cache.dir
+/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_sdk_examples/CMakeFiles/list_install_components.dir
+/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_sdk_examples/CMakeFiles/install.dir
+/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_sdk_examples/CMakeFiles/install/local.dir
+/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/dynamixel_sdk_examples/CMakeFiles/install/strip.dir

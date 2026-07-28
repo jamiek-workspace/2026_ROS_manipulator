@@ -1,0 +1,123 @@
+[0.008s] Invoking command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/src/open_manipulator/open_manipulator_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description
+[0.024s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.214s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.297s] -- Configuring done (0.3s)
+[0.302s] -- Generating done (0.0s)
+[0.303s] -- Build files have been written to: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_description
+[0.307s] Invoked command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/src/open_manipulator/open_manipulator_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description
+[0.308s] Invoking command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_description
+[0.353s] Invoked command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_description
+[0.354s] Invoking command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_description
+[0.363s] -- Install configuration: "Release"
+[0.363s] -- Execute custom install script
+[0.364s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/launch/omx_f.launch.py
+[0.364s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/launch/omx_l.launch.py
+[0.364s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/launch/omy_3m.launch.py
+[0.364s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/launch/omy_f3m.launch.py
+[0.364s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/launch/omy_l100.launch.py
+[0.364s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/launch/open_manipulator_x.launch.py
+[0.365s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omx_f/follower_01_base.stl
+[0.365s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omx_f/follower_02_base_tilt_Revised.stl
+[0.365s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omx_f/follower_03_middle_verticle.stl
+[0.365s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omx_f/follower_04_middle_horizontal.stl
+[0.366s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omx_f/follower_05_tip.stl
+[0.366s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omx_f/follower_06_pan_Revised.stl
+[0.366s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omx_f/follower_07_gripper_motorized.stl
+[0.366s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omx_f/follower_08_gripper_gear.stl
+[0.366s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omx_l/leader_01_base_roll.stl
+[0.366s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omx_l/leader_02_base_tilt_revised.stl
+[0.366s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omx_l/leader_03_middle_vertical.stl
+[0.366s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omx_l/leader_04_middle_horizontal.stl
+[0.366s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omx_l/leader_05_tip_roll.stl
+[0.367s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omx_l/leader_06_tip_pan_revised.stl
+[0.367s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omx_l/leader_07_tip_grip.stl
+[0.367s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_3m/base_unit.stl
+[0.367s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_3m/link1.stl
+[0.367s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_3m/link2.stl
+[0.367s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_3m/link3.stl
+[0.367s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_3m/link4.stl
+[0.367s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_3m/link5.stl
+[0.367s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_3m/link6.stl
+[0.367s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_f3m/base_unit.stl
+[0.368s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_f3m/flange.stl
+[0.368s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_f3m/link1.stl
+[0.368s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_f3m/link2.stl
+[0.368s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_f3m/link3.stl
+[0.368s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_f3m/link4.stl
+[0.368s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_f3m/link5.stl
+[0.368s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_f3m/link6.stl
+[0.368s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_l100/base_unit.stl
+[0.368s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_l100/link1.stl
+[0.368s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_l100/link2.stl
+[0.369s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_l100/link3.stl
+[0.369s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_l100/link4.stl
+[0.369s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_l100/link5.stl
+[0.369s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_l100/link6.stl
+[0.369s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_l100/link7.stl
+[0.369s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/open_manipulator_x/gripper_left_palm.stl
+[0.369s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/open_manipulator_x/gripper_right_palm.stl
+[0.369s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/open_manipulator_x/link1.stl
+[0.370s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/open_manipulator_x/link2.stl
+[0.370s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/open_manipulator_x/link3.stl
+[0.370s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/open_manipulator_x/link4.stl
+[0.370s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/open_manipulator_x/link5.stl
+[0.370s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/open_manipulator_x/plate.stl
+[0.370s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/rh_p12_rn_a/base.stl
+[0.370s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/rh_p12_rn_a/l1.stl
+[0.370s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/rh_p12_rn_a/l2.stl
+[0.371s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/rh_p12_rn_a/r1.stl
+[0.371s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/rh_p12_rn_a/r2.stl
+[0.371s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/rviz/open_manipulator.rviz
+[0.371s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/omx_f/omx_f.urdf
+[0.371s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/omx_f/omx_f.urdf.xacro
+[0.371s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/omx_f/omx_f_arm.urdf.xacro
+[0.371s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/omx_l/omx_l.urdf
+[0.372s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/omx_l/omx_l.urdf.xacro
+[0.372s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/omx_l/omx_l_arm.urdf.xacro
+[0.372s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/omy_3m/omy_3m.urdf
+[0.372s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/omy_3m/omy_3m.urdf.xacro
+[0.372s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/omy_3m/omy_3m_arm.urdf.xacro
+[0.372s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/omy_f3m/omy_f3m.urdf
+[0.372s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/omy_f3m/omy_f3m.urdf.xacro
+[0.372s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/omy_f3m/omy_f3m_arm.urdf.xacro
+[0.372s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/omy_f3m/rh_p12_rn_a.urdf.xacro
+[0.373s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/omy_l100/omy_l100.urdf
+[0.373s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/omy_l100/omy_l100.urdf.xacro
+[0.373s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/omy_l100/omy_l100_arm.urdf.xacro
+[0.373s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/open_manipulator_x/open_manipulator_x.urdf
+[0.373s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/open_manipulator_x/open_manipulator_x.urdf.xacro
+[0.373s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/open_manipulator_x/open_manipulator_x_arm.urdf.xacro
+[0.374s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/gazebo/omx_f.gazebo.xacro
+[0.374s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/gazebo/omx_l.gazebo.xacro
+[0.374s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/gazebo/omy_3m.gazebo.xacro
+[0.374s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/gazebo/omy_f3m.gazebo.xacro
+[0.374s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/gazebo/omy_l100.gazebo.xacro
+[0.374s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/gazebo/open_manipulator_x.gazebo.xacro
+[0.374s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/gazebo/rh_p12_rn_a.gazebo.xacro
+[0.375s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/ros2_control/omx_f.ros2_control.xacro
+[0.375s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/ros2_control/omx_l.ros2_control.xacro
+[0.375s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/ros2_control/omy_3m_end_unit.ros2_control.xacro
+[0.375s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/ros2_control/omy_3m_position.ros2_control.xacro
+[0.375s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/ros2_control/omy_f3m_current.ros2_control.xacro
+[0.375s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/ros2_control/omy_f3m_end_unit.ros2_control.xacro
+[0.375s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/ros2_control/omy_f3m_position.ros2_control.xacro
+[0.375s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/ros2_control/omy_f3m_smooth.ros2_control.xacro
+[0.375s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/ros2_control/omy_l100_current.ros2_control.xacro
+[0.375s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/ros2_control/omy_l100_position.ros2_control.xacro
+[0.376s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/ros2_control/open_manipulator_x_position.ros2_control.xacro
+[0.376s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/ament_index/resource_index/package_run_dependencies/open_manipulator_description
+[0.376s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/ament_index/resource_index/parent_prefix_path/open_manipulator_description
+[0.376s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/environment/ament_prefix_path.sh
+[0.376s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/environment/ament_prefix_path.dsv
+[0.376s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/environment/path.sh
+[0.376s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/environment/path.dsv
+[0.377s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/local_setup.bash
+[0.377s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/local_setup.sh
+[0.377s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/local_setup.zsh
+[0.377s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/local_setup.dsv
+[0.377s] -- Symlinking: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/package.dsv
+[0.394s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/ament_index/resource_index/packages/open_manipulator_description
+[0.394s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/cmake/open_manipulator_descriptionConfig.cmake
+[0.395s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/cmake/open_manipulator_descriptionConfig-version.cmake
+[0.395s] -- Up-to-date symlink: /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/package.xml
+[0.398s] Invoked command in '/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/open_manipulator_description

@@ -1,0 +1,46 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "robotis_interfaces/msg/TactileSensor",
+      "fields": [
+        {
+          "name": "sensor_name",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "pressure_names",
+          "type": {
+            "type_id": 65,
+            "capacity": 9,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "pressure_values",
+          "type": {
+            "type_id": 51,
+            "capacity": 9,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "robotis_interfaces/msg/TactileSensor",
+      "hash_string": "RIHS01_7b182850c449384bf01e45533fe901dd483f0b00b63506a52871ea335aaa4d48"
+    }
+  ]
+}

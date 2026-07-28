@@ -1,0 +1,15 @@
+{
+  "package_name": "robotis_interfaces",
+  "output_dir": "/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/robotis_interfaces/rosidl_generator_type_description/robotis_interfaces",
+  "idl_tuples": [
+    "/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/robotis_interfaces/rosidl_adapter/robotis_interfaces:msg/HandJoints.idl",
+    "/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/robotis_interfaces/rosidl_adapter/robotis_interfaces:msg/HandPressures.idl",
+    "/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/robotis_interfaces/rosidl_adapter/robotis_interfaces:msg/MoveL.idl",
+    "/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/robotis_interfaces/rosidl_adapter/robotis_interfaces:msg/TactileSensor.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs"
+  ]
+}

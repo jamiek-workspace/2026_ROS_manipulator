@@ -1,0 +1,1 @@
+/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/build/om_gravity_compensation_controller/ament_cmake_environment_hooks/local_setup.bash

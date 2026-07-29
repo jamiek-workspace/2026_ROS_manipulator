@@ -1,9 +1,11 @@
-"""MoveItPy로 OpenManipulator-X의 arm과 gripper를 실행한다."""
+"""MoveItPy로 OpenManipulator-X의 arm과 gripper를 제어한다."""
 
-import time
+import os
+import sys
 
 import rclpy
 from moveit.planning import MoveItPy
+from rclpy.logging import get_logger
 
 
 def plan_and_execute(
@@ -12,17 +14,12 @@ def plan_and_execute(
     configuration_name: str,
     controller_name: str,
 ) -> bool:
-    """현재 상태에서 named state까지 계획한 뒤 지정 controller로 실행한다."""
+    """Named state까지 경로를 계획하고 실행한다."""
     component.set_start_state_to_current_state()
     component.set_goal_state(configuration_name=configuration_name)
 
-    print(f"경로 계획 중: {configuration_name}")
     plan_result = component.plan()
-    if not plan_result:
-        print(f"경로 계획 실패: {configuration_name}")
-        return False
 
-    print(f"경로 실행 중: {configuration_name}")
     moveit.execute(
         plan_result.trajectory,
         controllers=[controller_name],
@@ -31,36 +28,34 @@ def plan_and_execute(
 
 
 def main() -> None:
-    """arm을 home으로 이동하고 gripper를 열고 닫는다."""
     rclpy.init()
-    try:
-        moveit = MoveItPy(node_name="open_manipulator_moveit_py")
-        arm = moveit.get_planning_component("arm")
-        gripper = moveit.get_planning_component("gripper")
+    logger = get_logger("moveit_test")
+    moveit = MoveItPy(node_name="open_manipulator_moveit_py")
+    arm = moveit.get_planning_component("arm")
+    gripper = moveit.get_planning_component("gripper")
 
-        if not plan_and_execute(
+    for goal_name in ("home", "init", "home", "init"):
+        plan_and_execute(
             moveit,
             arm,
-            configuration_name="home",
+            configuration_name=goal_name,
             controller_name="arm_controller",
-        ):
-            return
+        )
+    for goal_name in ("open", "close", "open", "close"):
+        plan_and_execute(
+            moveit,
+            gripper,
+            configuration_name=goal_name,
+            controller_name="gripper_controller",
+        )
 
-        time.sleep(0.5)
-        for goal_name in ("open", "close", "open"):
-            if not plan_and_execute(
-                moveit,
-                gripper,
-                configuration_name=goal_name,
-                controller_name="gripper_controller",
-            ):
-                return
-            time.sleep(0.7)
-    except KeyboardInterrupt:
-        pass
-    finally:
-        if rclpy.ok():
-            rclpy.shutdown()
+    logger.info("실습 완료")
+
+    # MoveItPy 2.12.4는 MoveItCpp 소멸 중 SIGSEGV가 발생할 수 있다.
+    # 이 일회성 노드는 성공 시 문제가 있는 C++ 소멸자 경로를 우회한다.
+    sys.stdout.flush()
+    sys.stderr.flush()
+    os._exit(0)
 
 
 if __name__ == "__main__":

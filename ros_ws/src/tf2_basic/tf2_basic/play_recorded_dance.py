@@ -1,4 +1,6 @@
 """기록된 OpenManipulator-X 동작을 재생하는 노드."""
+# 현재는 recorded_grip을 재생하고 있음.
+# yaml부분 코드 수정 시 다른 파일 재생 가능
 
 from pathlib import Path
 from typing import Any

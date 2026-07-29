@@ -49,6 +49,7 @@ setup(
             "play_recorded_dance = tf2_basic.play_recorded_dance:main",
             "play_recorded_grip = tf2_basic.play_recorded_grip:main",
             "moveit_test = tf2_basic.moveit_test:main",
+            "moveit_class = tf2_basic.moveit_class:main",
         ],
     },
 )

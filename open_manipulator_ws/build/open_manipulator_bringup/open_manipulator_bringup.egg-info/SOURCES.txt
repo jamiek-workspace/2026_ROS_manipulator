@@ -2,13 +2,6 @@ open-manipulator-cdc.rules
 package.xml
 setup.cfg
 setup.py
-../../../build/open_manipulator_bringup/open_manipulator_bringup.egg-info/PKG-INFO
-../../../build/open_manipulator_bringup/open_manipulator_bringup.egg-info/SOURCES.txt
-../../../build/open_manipulator_bringup/open_manipulator_bringup.egg-info/dependency_links.txt
-../../../build/open_manipulator_bringup/open_manipulator_bringup.egg-info/entry_points.txt
-../../../build/open_manipulator_bringup/open_manipulator_bringup.egg-info/requires.txt
-../../../build/open_manipulator_bringup/open_manipulator_bringup.egg-info/top_level.txt
-../../../build/open_manipulator_bringup/open_manipulator_bringup.egg-info/zip-safe
 config/omx_f/hardware_controller_manager.yaml
 config/omx_f/initial_positions.yaml
 config/omx_f_follower_ai/hardware_controller_manager.yaml
@@ -55,5 +48,12 @@ launch/open_manipulator_x_gazebo.launch.py
 open_manipulator_bringup/__init__.py
 open_manipulator_bringup/joint_trajectory_executor.py
 open_manipulator_bringup/om_create_udev_rules.py
+open_manipulator_bringup.egg-info/PKG-INFO
+open_manipulator_bringup.egg-info/SOURCES.txt
+open_manipulator_bringup.egg-info/dependency_links.txt
+open_manipulator_bringup.egg-info/entry_points.txt
+open_manipulator_bringup.egg-info/requires.txt
+open_manipulator_bringup.egg-info/top_level.txt
+open_manipulator_bringup.egg-info/zip-safe
 resource/open_manipulator_bringup
 worlds/empty_world.sdf

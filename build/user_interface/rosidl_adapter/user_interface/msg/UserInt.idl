@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from user_interface/msg/UserInt.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module user_interface {
+  module msg {
+    struct UserInt {
+      std_msgs::msg::Header header;
+
+      int32 user_int;
+
+      int32 user_int2;
+
+      int32 user_int3;
+    };
+  };
+};

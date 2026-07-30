@@ -1,0 +1,59 @@
+[0.067s] Invoking command in '/home/jamiek/2026_ROS_manipulator/build/om_joint_trajectory_command_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/src/open_manipulator/ros2_controller/om_joint_trajectory_command_broadcaster -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jamiek/2026_ROS_manipulator/install/om_joint_trajectory_command_broadcaster
+[1.094s] -- The CXX compiler identification is GNU 13.3.0
+[1.094s] -- Detecting CXX compiler ABI info
+[1.094s] -- Detecting CXX compiler ABI info - done
+[1.094s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.095s] -- Detecting CXX compile features
+[1.095s] -- Detecting CXX compile features - done
+[1.095s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.095s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.095s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.095s] -- Found builtin_interfaces: 2.0.4 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[1.114s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.151s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.202s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.246s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.302s] -- Found controller_interface: 4.45.2 (/opt/ros/jazzy/share/controller_interface/cmake)
+[1.789s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.905s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.919s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.005s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.358s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.373s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.460s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.478s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.525s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.579s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.719s] -- Found generate_parameter_library: 0.7.3 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[3.734s] -- Found parameter_traits: 0.7.3 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[3.797s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/tl_expected/cmake/tl_expectedConfig.cmake:37 (message):
+[3.797s]   Package 'tl_expected' is deprecated (This package will be removed in ROS 2
+[3.797s]   Lyrical Luth.
+[3.797s] 
+[3.798s]         Use tl/expected.hpp from libexpected-dev,
+[3.798s]         or rcpputils/tl_expected/expected.hpp if the system header is not available)
+[3.798s] Call Stack (most recent call first):
+[3.798s]   /opt/ros/jazzy/share/parameter_traits/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[3.798s]   /opt/ros/jazzy/share/parameter_traits/cmake/parameter_traitsConfig.cmake:41 (include)
+[3.798s]   /opt/ros/jazzy/share/generate_parameter_library/cmake/generate_parameter_library-extras.cmake:30 (find_package)
+[3.798s]   /opt/ros/jazzy/share/generate_parameter_library/cmake/generate_parameter_libraryConfig.cmake:41 (include)
+[3.798s]   CMakeLists.txt:31 (find_package)
+[3.798s] 
+[3.798s] [0m
+[4.025s] -- Configuring done (3.9s)
+[4.108s] -- Generating done (0.1s)
+[4.121s] -- Build files have been written to: /home/jamiek/2026_ROS_manipulator/build/om_joint_trajectory_command_broadcaster
+[4.174s] Invoked command in '/home/jamiek/2026_ROS_manipulator/build/om_joint_trajectory_command_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/src/open_manipulator/ros2_controller/om_joint_trajectory_command_broadcaster -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jamiek/2026_ROS_manipulator/install/om_joint_trajectory_command_broadcaster
+[4.175s] Invoking command in '/home/jamiek/2026_ROS_manipulator/build/om_joint_trajectory_command_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jamiek/2026_ROS_manipulator/build/om_joint_trajectory_command_broadcaster -- -j16 -l16
+[5.016s] [ 25%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/jamiek/2026_ROS_manipulator/build/om_joint_trajectory_command_broadcaster/include/om_joint_trajectory_command_broadcaster/joint_trajectory_command_broadcaster_parameters.hpp /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/src/open_manipulator/ros2_controller/om_joint_trajectory_command_broadcaster/src/joint_trajectory_command_broadcaster_parameters.yaml `[0m
+[5.931s] [ 50%] [34m[1mCreating deprecated header file /home/jamiek/2026_ROS_manipulator/build/om_joint_trajectory_command_broadcaster/include/joint_trajectory_command_broadcaster_parameters.hpp[0m
+[5.969s] [ 50%] Built target joint_trajectory_command_broadcaster_parameters
+[6.013s] [ 75%] [32mBuilding CXX object CMakeFiles/joint_trajectory_command_broadcaster.dir/src/joint_trajectory_command_broadcaster.cpp.o[0m
+[20.455s] In file included from [01m[K/opt/ros/jazzy/include/parameter_traits/parameter_traits/parameter_traits.hpp:37[m[K,
+[20.459s]                  from [01m[K/home/jamiek/2026_ROS_manipulator/build/om_joint_trajectory_command_broadcaster/include/om_joint_trajectory_command_broadcaster/joint_trajectory_command_broadcaster_parameters.hpp:26[m[K,
+[20.459s]                  from [01m[K/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/src/open_manipulator/ros2_controller/om_joint_trajectory_command_broadcaster/include/joint_trajectory_command_broadcaster/joint_trajectory_command_broadcaster.hpp:28[m[K,
+[20.459s]                  from [01m[K/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/src/open_manipulator/ros2_controller/om_joint_trajectory_command_broadcaster/src/joint_trajectory_command_broadcaster.cpp:15[m[K:
+[20.459s] [01m[K/opt/ros/jazzy/include/tl_expected/expected.hpp:18:167:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.[m[K’
+[20.459s]    18 | "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."[01;36m[K)[m[K // NOLINT
+[20.460s]       |                                                                                                                                                                     [01;36m[K^[m[K
+[20.460s] 

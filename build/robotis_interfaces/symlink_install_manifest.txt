@@ -1,0 +1,14 @@
+/home/jamiek/2026_ROS_manipulator/install/robotis_interfaces/share/ament_index/resource_index/rosidl_interfaces/robotis_interfaces
+/home/jamiek/2026_ROS_manipulator/install/robotis_interfaces/share/robotis_interfaces/msg/HandJoints.json
+/home/jamiek/2026_ROS_manipulator/install/robotis_interfaces/share/robotis_interfaces/msg/HandPressures.json
+/home/jamiek/2026_ROS_manipulator/install/robotis_interfaces/share/robotis_interfaces/msg/MoveL.json
+/home/jamiek/2026_ROS_manipulator/install/robotis_interfaces/share/robotis_interfaces/msg/TactileSensor.json
+/home/jamiek/2026_ROS_manipulator/install/robotis_interfaces/include/robotis_interfaces/robotis_interfaces/msg/detail/hand_joints__functions.h
+/home/jamiek/2026_ROS_manipulator/install/robotis_interfaces/include/robotis_interfaces/robotis_interfaces/msg/detail/hand_joints__struct.h
+/home/jamiek/2026_ROS_manipulator/install/robotis_interfaces/include/robotis_interfaces/robotis_interfaces/msg/detail/hand_joints__type_support.h
+/home/jamiek/2026_ROS_manipulator/install/robotis_interfaces/include/robotis_interfaces/robotis_interfaces/msg/detail/hand_pressures__functions.h
+/home/jamiek/2026_ROS_manipulator/install/robotis_interfaces/include/robotis_interfaces/robotis_interfaces/msg/detail/hand_pressures__struct.h
+/home/jamiek/2026_ROS_manipulator/install/robotis_interfaces/include/robotis_interfaces/robotis_interfaces/msg/detail/hand_pressures__type_support.h
+/home/jamiek/2026_ROS_manipulator/install/robotis_interfaces/include/robotis_interfaces/robotis_interfaces/msg/detail/move_l__functions.h
+/home/jamiek/2026_ROS_manipulator/install/robotis_interfaces/include/robotis_interfaces/robotis_interfaces/msg/detail/move_l__struct.h
+/home/jamiek/2026_ROS_manipulator/install/robotis_interfaces/include/robotis_interfaces/robotis_interfaces/msg/detail/move_l__type_support.h

@@ -1,0 +1,16 @@
+{
+  "package_name": "user_interface",
+  "output_dir": "/home/jamiek/2026_ROS_manipulator/build/user_interface/rosidl_generator_type_description/user_interface",
+  "idl_tuples": [
+    "/home/jamiek/2026_ROS_manipulator/build/user_interface/rosidl_adapter/user_interface:msg/UserInt.idl",
+    "/home/jamiek/2026_ROS_manipulator/build/user_interface/rosidl_adapter/user_interface:srv/AddAndOdd.idl",
+    "/home/jamiek/2026_ROS_manipulator/build/user_interface/rosidl_adapter/user_interface:action/Fibonacci.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs"
+  ]
+}

@@ -1,0 +1,34 @@
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found controller_interface: 4.45.2 (/opt/ros/jazzy/share/controller_interface/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found generate_parameter_library: 0.7.3 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+-- Found parameter_traits: 0.7.3 (/opt/ros/jazzy/share/parameter_traits/cmake)
+-- Configuring done (4.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/jamiek/2026_ROS_manipulator/build/om_spring_actuator_controller
+[ 25%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/jamiek/2026_ROS_manipulator/build/om_spring_actuator_controller/include/om_spring_actuator_controller/spring_actuator_controller_parameters.hpp /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/src/open_manipulator/ros2_controller/om_spring_actuator_controller/src/spring_actuator_controller_parameters.yaml `[0m
+[ 50%] [34m[1mCreating deprecated header file /home/jamiek/2026_ROS_manipulator/build/om_spring_actuator_controller/include/spring_actuator_controller_parameters.hpp[0m
+[ 50%] Built target spring_actuator_controller_parameters
+[ 75%] [32mBuilding CXX object CMakeFiles/spring_actuator_controller.dir/src/spring_actuator_controller.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libspring_actuator_controller.so[0m

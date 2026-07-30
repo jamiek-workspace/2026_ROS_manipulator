@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-fdae1d78a7b9029d54a3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "robotis_interfaces__py",
+					"jsonFile" : "directory-robotis_interfaces__py-7b3737ff5ee31ba2c9a6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/jamiek/2026_ROS_manipulator/build/robotis_interfaces/robotis_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "robotis_interfaces__rs",
+					"jsonFile" : "directory-robotis_interfaces__rs-06b68407537da608fcc2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/jamiek/2026_ROS_manipulator/build/robotis_interfaces/robotis_interfaces__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "robotis_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_robotis_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_robotis_interfaces_egg-2dd81a0e2810c2bf6ce5.json",
+					"name" : "ament_cmake_python_build_robotis_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_robotis_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_robotis_interfaces-75fb0240b8fb32fe45d2.json",
+					"name" : "ament_cmake_python_symlink_robotis_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotis_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotis_interfaces-8fa84488422385b072cd.json",
+					"name" : "robotis_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotis_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotis_interfaces__cpp-c1ba9621a5258ad9b3cf.json",
+					"name" : "robotis_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "robotis_interfaces__py::@43fc588b4afeb634e17c",
+					"jsonFile" : "target-robotis_interfaces__py-ae0033669c644ea26fe3.json",
+					"name" : "robotis_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotis_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotis_interfaces__rosidl_generator_c-893ddcc05ad6a1b67c64.json",
+					"name" : "robotis_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotis_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotis_interfaces__rosidl_generator_py-200578e3d53959fab2d6.json",
+					"name" : "robotis_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotis_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotis_interfaces__rosidl_generator_type_description-7082f91fa39b48a44e89.json",
+					"name" : "robotis_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotis_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotis_interfaces__rosidl_typesupport_c-9e4aed01a10e6e81140a.json",
+					"name" : "robotis_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotis_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotis_interfaces__rosidl_typesupport_cpp-ef502e3ec8f6b8f6b24e.json",
+					"name" : "robotis_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotis_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotis_interfaces__rosidl_typesupport_fastrtps_c-a6b6792194b1c8c6ba80.json",
+					"name" : "robotis_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotis_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotis_interfaces__rosidl_typesupport_fastrtps_cpp-efeb438cc1a05ff5953b.json",
+					"name" : "robotis_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotis_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotis_interfaces__rosidl_typesupport_introspection_c-75b476d958c52636ae08.json",
+					"name" : "robotis_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotis_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotis_interfaces__rosidl_typesupport_introspection_cpp-a678ccff4b1b0989c3ad.json",
+					"name" : "robotis_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "robotis_interfaces__rs::@2f39cbd76e2fddbbe73d",
+					"jsonFile" : "target-robotis_interfaces__rs-4190b1e81cb4c405c4bc.json",
+					"name" : "robotis_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotis_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotis_interfaces_s__rosidl_typesupport_c-b17ef66e894e5a9a062f.json",
+					"name" : "robotis_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotis_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotis_interfaces_s__rosidl_typesupport_fastrtps_c-190bf9c250a83d7256a1.json",
+					"name" : "robotis_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotis_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotis_interfaces_s__rosidl_typesupport_introspection_c-064a31e45eb2f55b39ca.json",
+					"name" : "robotis_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotis_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotis_interfaces_uninstall-1f541e1983da3879c919.json",
+					"name" : "robotis_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-44882759a517e6166291.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jamiek/2026_ROS_manipulator/build/robotis_interfaces",
+		"source" : "/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/src/robotis_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,1 @@
+/home/jamiek/2026_ROS_manipulator/build/tf2_basic/launch/moveit_class.launch.py

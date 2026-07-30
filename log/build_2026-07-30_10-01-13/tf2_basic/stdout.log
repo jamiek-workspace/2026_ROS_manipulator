@@ -1,0 +1,65 @@
+running develop
+running egg_info
+creating tf2_basic.egg-info
+writing tf2_basic.egg-info/PKG-INFO
+writing dependency_links to tf2_basic.egg-info/dependency_links.txt
+writing entry points to tf2_basic.egg-info/entry_points.txt
+writing requirements to tf2_basic.egg-info/requires.txt
+writing top-level names to tf2_basic.egg-info/top_level.txt
+writing manifest file 'tf2_basic.egg-info/SOURCES.txt'
+reading manifest file 'tf2_basic.egg-info/SOURCES.txt'
+writing manifest file 'tf2_basic.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jamiek/2026_ROS_manipulator/install/tf2_basic/lib/python3.12/site-packages/tf2-basic.egg-link (link to .)
+Installing dance_manipulator script to /home/jamiek/2026_ROS_manipulator/install/tf2_basic/lib/tf2_basic
+Installing dance_manipulator2 script to /home/jamiek/2026_ROS_manipulator/install/tf2_basic/lib/tf2_basic
+Installing dance_manipulator_action script to /home/jamiek/2026_ROS_manipulator/install/tf2_basic/lib/tf2_basic
+Installing dance_manipulator_action2 script to /home/jamiek/2026_ROS_manipulator/install/tf2_basic/lib/tf2_basic
+Installing dynamic_turtle_tf2_broadcaster script to /home/jamiek/2026_ROS_manipulator/install/tf2_basic/lib/tf2_basic
+Installing move_manipulator script to /home/jamiek/2026_ROS_manipulator/install/tf2_basic/lib/tf2_basic
+Installing move_manipulator_action script to /home/jamiek/2026_ROS_manipulator/install/tf2_basic/lib/tf2_basic
+Installing move_u2d2 script to /home/jamiek/2026_ROS_manipulator/install/tf2_basic/lib/tf2_basic
+Installing moveit_attached script to /home/jamiek/2026_ROS_manipulator/install/tf2_basic/lib/tf2_basic
+Installing moveit_class script to /home/jamiek/2026_ROS_manipulator/install/tf2_basic/lib/tf2_basic
+Installing moveit_mini_project script to /home/jamiek/2026_ROS_manipulator/install/tf2_basic/lib/tf2_basic
+Installing moveit_scene_monitor script to /home/jamiek/2026_ROS_manipulator/install/tf2_basic/lib/tf2_basic
+Installing moveit_test script to /home/jamiek/2026_ROS_manipulator/install/tf2_basic/lib/tf2_basic
+Installing play_recorded_dance script to /home/jamiek/2026_ROS_manipulator/install/tf2_basic/lib/tf2_basic
+Installing play_recorded_grip script to /home/jamiek/2026_ROS_manipulator/install/tf2_basic/lib/tf2_basic
+Installing static_turtle_tf2_broadcaster script to /home/jamiek/2026_ROS_manipulator/install/tf2_basic/lib/tf2_basic
+Installing teach_manipulator script to /home/jamiek/2026_ROS_manipulator/install/tf2_basic/lib/tf2_basic
+Installing teach_manipulator_T1 script to /home/jamiek/2026_ROS_manipulator/install/tf2_basic/lib/tf2_basic
+Installing tf_listener script to /home/jamiek/2026_ROS_manipulator/install/tf2_basic/lib/tf2_basic
+Installing turtle_tf_listener script to /home/jamiek/2026_ROS_manipulator/install/tf2_basic/lib/tf2_basic
+
+Installed /home/jamiek/2026_ROS_manipulator/build/tf2_basic
+running symlink_data
+creating /home/jamiek/2026_ROS_manipulator/install/tf2_basic/share/ament_index
+creating /home/jamiek/2026_ROS_manipulator/install/tf2_basic/share/ament_index/resource_index
+creating /home/jamiek/2026_ROS_manipulator/install/tf2_basic/share/ament_index/resource_index/packages
+symbolically linking /home/jamiek/2026_ROS_manipulator/build/tf2_basic/resource/tf2_basic -> /home/jamiek/2026_ROS_manipulator/install/tf2_basic/share/ament_index/resource_index/packages
+symbolically linking /home/jamiek/2026_ROS_manipulator/build/tf2_basic/package.xml -> /home/jamiek/2026_ROS_manipulator/install/tf2_basic/share/tf2_basic
+creating /home/jamiek/2026_ROS_manipulator/install/tf2_basic/share/tf2_basic/launch
+symbolically linking /home/jamiek/2026_ROS_manipulator/build/tf2_basic/launch/moveit_class.launch.py -> /home/jamiek/2026_ROS_manipulator/install/tf2_basic/share/tf2_basic/launch
+symbolically linking /home/jamiek/2026_ROS_manipulator/build/tf2_basic/launch/moveit_test.launch.py -> /home/jamiek/2026_ROS_manipulator/install/tf2_basic/share/tf2_basic/launch
+symbolically linking /home/jamiek/2026_ROS_manipulator/build/tf2_basic/launch/urdf_display.launch.py -> /home/jamiek/2026_ROS_manipulator/install/tf2_basic/share/tf2_basic/launch
+creating /home/jamiek/2026_ROS_manipulator/install/tf2_basic/share/tf2_basic/urdf
+symbolically linking /home/jamiek/2026_ROS_manipulator/build/tf2_basic/urdf/03_wheel_joint.urdf -> /home/jamiek/2026_ROS_manipulator/install/tf2_basic/share/tf2_basic/urdf
+symbolically linking /home/jamiek/2026_ROS_manipulator/build/tf2_basic/urdf/05_add_arm.urdf -> /home/jamiek/2026_ROS_manipulator/install/tf2_basic/share/tf2_basic/urdf
+symbolically linking /home/jamiek/2026_ROS_manipulator/build/tf2_basic/urdf/02_leg_joint.urdf -> /home/jamiek/2026_ROS_manipulator/install/tf2_basic/share/tf2_basic/urdf
+symbolically linking /home/jamiek/2026_ROS_manipulator/build/tf2_basic/urdf/01_myfirst.urdf -> /home/jamiek/2026_ROS_manipulator/install/tf2_basic/share/tf2_basic/urdf
+symbolically linking /home/jamiek/2026_ROS_manipulator/build/tf2_basic/urdf/06_macroed.urdf.xacro -> /home/jamiek/2026_ROS_manipulator/install/tf2_basic/share/tf2_basic/urdf
+symbolically linking /home/jamiek/2026_ROS_manipulator/build/tf2_basic/urdf/04_physics.urdf -> /home/jamiek/2026_ROS_manipulator/install/tf2_basic/share/tf2_basic/urdf
+creating /home/jamiek/2026_ROS_manipulator/install/tf2_basic/share/tf2_basic/rviz
+symbolically linking /home/jamiek/2026_ROS_manipulator/build/tf2_basic/rviz/urdf.rviz -> /home/jamiek/2026_ROS_manipulator/install/tf2_basic/share/tf2_basic/rviz
+creating /home/jamiek/2026_ROS_manipulator/install/tf2_basic/share/tf2_basic/meshes
+symbolically linking /home/jamiek/2026_ROS_manipulator/build/tf2_basic/meshes/l_finger_tip_color.png -> /home/jamiek/2026_ROS_manipulator/install/tf2_basic/share/tf2_basic/meshes
+symbolically linking /home/jamiek/2026_ROS_manipulator/build/tf2_basic/meshes/l_finger_color.png -> /home/jamiek/2026_ROS_manipulator/install/tf2_basic/share/tf2_basic/meshes
+symbolically linking /home/jamiek/2026_ROS_manipulator/build/tf2_basic/meshes/l_finger_tip.dae -> /home/jamiek/2026_ROS_manipulator/install/tf2_basic/share/tf2_basic/meshes
+symbolically linking /home/jamiek/2026_ROS_manipulator/build/tf2_basic/meshes/l_finger.dae -> /home/jamiek/2026_ROS_manipulator/install/tf2_basic/share/tf2_basic/meshes
+creating /home/jamiek/2026_ROS_manipulator/install/tf2_basic/share/tf2_basic/data
+symbolically linking /home/jamiek/2026_ROS_manipulator/build/tf2_basic/data/dance_positions.yaml -> /home/jamiek/2026_ROS_manipulator/install/tf2_basic/share/tf2_basic/data
+symbolically linking /home/jamiek/2026_ROS_manipulator/build/tf2_basic/data/recorded_dance.yaml -> /home/jamiek/2026_ROS_manipulator/install/tf2_basic/share/tf2_basic/data
+symbolically linking /home/jamiek/2026_ROS_manipulator/build/tf2_basic/data/recorded_grip.yaml -> /home/jamiek/2026_ROS_manipulator/install/tf2_basic/share/tf2_basic/data
+symbolically linking /home/jamiek/2026_ROS_manipulator/build/tf2_basic/data/dance_positions2.yaml -> /home/jamiek/2026_ROS_manipulator/install/tf2_basic/share/tf2_basic/data
+symbolically linking /home/jamiek/2026_ROS_manipulator/build/tf2_basic/data/teach_data.yaml -> /home/jamiek/2026_ROS_manipulator/install/tf2_basic/share/tf2_basic/data

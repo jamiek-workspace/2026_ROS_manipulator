@@ -1,0 +1,1 @@
+/home/jamiek/2026_ROS_manipulator/build/dynamixel_sdk_custom_interfaces/rosidl_generator_rs/dynamixel_sdk_custom_interfaces/rust/src/srv/rmw.rs

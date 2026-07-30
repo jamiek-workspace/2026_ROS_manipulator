@@ -1,0 +1,1 @@
+/home/jamiek/2026_ROS_manipulator/build/open_manipulator_moveit_config/ament_cmake_environment_hooks/local_setup.zsh

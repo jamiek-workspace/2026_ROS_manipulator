@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "user_interface/srv/AddAndOdd_Request",
+      "fields": [
+        {
+          "name": "inta",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "intb",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "user_interface/srv/AddAndOdd_Request",
+      "hash_string": "RIHS01_f29f8bd9076cf7b599889b118b0a6a70568e56585b1d48a38c8d0f05599a7cc6"
+    }
+  ]
+}

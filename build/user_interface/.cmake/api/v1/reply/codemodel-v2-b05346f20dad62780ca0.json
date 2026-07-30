@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-450ab3c9c1468320486e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "user_interface__py",
+					"jsonFile" : "directory-user_interface__py-a8f30f0cc9c22b64e8cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/jamiek/2026_ROS_manipulator/build/user_interface/user_interface__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "user_interface__rs",
+					"jsonFile" : "directory-user_interface__rs-e6f5477262857b044b71.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/jamiek/2026_ROS_manipulator/build/user_interface/user_interface__rs",
+					"targetIndexes" : 
+					[
+						15
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "user_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_user_interface_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_user_interface_egg-be1386dcbf93f1026700.json",
+					"name" : "ament_cmake_python_build_user_interface_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_user_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_user_interface-a50b1360487a123cf686.json",
+					"name" : "ament_cmake_python_symlink_user_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4c06f4365f09ab560ff0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_interface-9a12c6f102c5ce84d8ad.json",
+					"name" : "user_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_interface__cpp-7ce172b6f6de8a78ffdb.json",
+					"name" : "user_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "user_interface__py::@ece25ec7116cb1ca37ca",
+					"jsonFile" : "target-user_interface__py-a30d8a65b4ea2cf205a9.json",
+					"name" : "user_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_interface__rosidl_generator_c-9bfc02c57da48712efcf.json",
+					"name" : "user_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_interface__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_interface__rosidl_generator_py-4b792ae6622c5350c4a5.json",
+					"name" : "user_interface__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_interface__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_interface__rosidl_generator_type_description-f5528f6633e39cde49c0.json",
+					"name" : "user_interface__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_interface__rosidl_typesupport_c-795da3ffb6f0100fe52f.json",
+					"name" : "user_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_interface__rosidl_typesupport_cpp-6a209c54da8460eca2fa.json",
+					"name" : "user_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_interface__rosidl_typesupport_fastrtps_c-07112e0d0d93e84f839a.json",
+					"name" : "user_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_interface__rosidl_typesupport_fastrtps_cpp-39fe5c5a281deacc819f.json",
+					"name" : "user_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_interface__rosidl_typesupport_introspection_c-a6b4b04d4f56cb915a83.json",
+					"name" : "user_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_interface__rosidl_typesupport_introspection_cpp-5e215a869599b747cef3.json",
+					"name" : "user_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "user_interface__rs::@c8e5bbb01034c5279e8b",
+					"jsonFile" : "target-user_interface__rs-82441ccacf3072a54217.json",
+					"name" : "user_interface__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_interface_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_interface_s__rosidl_typesupport_c-9bef14344edc52581006.json",
+					"name" : "user_interface_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_interface_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_interface_s__rosidl_typesupport_fastrtps_c-1d0b401c8e5cba652dee.json",
+					"name" : "user_interface_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_interface_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_interface_s__rosidl_typesupport_introspection_c-4e66069cd6123c3576a7.json",
+					"name" : "user_interface_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_interface_uninstall-858d07af40dcc5f6aebe.json",
+					"name" : "user_interface_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jamiek/2026_ROS_manipulator/build/user_interface",
+		"source" : "/home/jamiek/2026_ROS_manipulator/ros_ws/src/user_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

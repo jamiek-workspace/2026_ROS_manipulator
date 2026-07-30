@@ -1,0 +1,1 @@
+/home/jamiek/2026_ROS_manipulator/build/open_manipulator_description/ament_cmake_core/open_manipulator_descriptionConfig.cmake

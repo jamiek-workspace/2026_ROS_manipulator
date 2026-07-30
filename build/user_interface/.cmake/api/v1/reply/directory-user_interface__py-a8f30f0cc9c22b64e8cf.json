@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "user_interface__py",
+		"source" : "/home/jamiek/2026_ROS_manipulator/build/user_interface/user_interface__py"
+	}
+}

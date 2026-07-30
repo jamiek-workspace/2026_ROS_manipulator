@@ -1,0 +1,3 @@
+/home/jamiek/2026_ROS_manipulator/build/user_interface/rosidl_adapter/user_interface:msg/UserInt.idl
+/home/jamiek/2026_ROS_manipulator/build/user_interface/rosidl_adapter/user_interface:srv/AddAndOdd.idl
+/home/jamiek/2026_ROS_manipulator/build/user_interface/rosidl_adapter/user_interface:action/Fibonacci.idl

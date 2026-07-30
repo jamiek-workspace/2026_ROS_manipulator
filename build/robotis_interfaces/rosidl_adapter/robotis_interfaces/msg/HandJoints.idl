@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robotis_interfaces/msg/HandJoints.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point32.idl"
+#include "std_msgs/msg/Header.idl"
+
+module robotis_interfaces {
+  module msg {
+    typedef geometry_msgs::msg::Point32 geometry_msgs__msg__Point32;
+    typedef geometry_msgs__msg__Point32 geometry_msgs__msg__Point32__21[21];
+    @verbatim (language="comment", text=
+      "HandJoints.msg")
+    struct HandJoints {
+      @verbatim (language="comment", text=
+        "Standard header for timestamps and frame_id.")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Fixed-size array of 21 Point32 structs." "\n"
+        "Point32 uses float32 for each coordinate, which is generally" "\n"
+        "sufficient for non-critical robot localization and saves space" "\n"
+        "compared to float64 (Point).")
+      geometry_msgs__msg__Point32__21 joints;
+    };
+  };
+};

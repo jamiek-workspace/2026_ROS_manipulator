@@ -1,0 +1,4 @@
+/home/jamiek/2026_ROS_manipulator/build/robotis_interfaces/rosidl_adapter/robotis_interfaces:msg/HandJoints.idl
+/home/jamiek/2026_ROS_manipulator/build/robotis_interfaces/rosidl_adapter/robotis_interfaces:msg/HandPressures.idl
+/home/jamiek/2026_ROS_manipulator/build/robotis_interfaces/rosidl_adapter/robotis_interfaces:msg/MoveL.idl
+/home/jamiek/2026_ROS_manipulator/build/robotis_interfaces/rosidl_adapter/robotis_interfaces:msg/TactileSensor.idl

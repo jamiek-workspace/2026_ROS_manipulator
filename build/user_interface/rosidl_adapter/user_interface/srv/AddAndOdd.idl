@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from user_interface/srv/AddAndOdd.srv
+// generated code does not contain a copyright notice
+
+
+module user_interface {
+  module srv {
+    struct AddAndOdd_Request {
+      int32 inta;
+
+      int32 intb;
+    };
+    struct AddAndOdd_Response {
+      int32 sum;
+
+      string odd;
+    };
+  };
+};

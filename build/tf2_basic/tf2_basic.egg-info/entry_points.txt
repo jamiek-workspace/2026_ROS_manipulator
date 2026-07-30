@@ -1,0 +1,21 @@
+[console_scripts]
+dance_manipulator = tf2_basic.dance_manipulator:main
+dance_manipulator2 = tf2_basic.dance_manipulator2:main
+dance_manipulator_action = tf2_basic.dance_manipulator_action:main
+dance_manipulator_action2 = tf2_basic.dance_manipulator_action2:main
+dynamic_turtle_tf2_broadcaster = tf2_basic.dynamic_turtle_tf2_broadcaster:main
+move_manipulator = tf2_basic.move_manipulator:main
+move_manipulator_action = tf2_basic.move_manipulator_action:main
+move_u2d2 = tf2_basic.move_u2d2:main
+moveit_attached = tf2_basic.moveit_attached:main
+moveit_class = tf2_basic.moveit_class:main
+moveit_mini_project = tf2_basic.moveit_mini_project:main
+moveit_scene_monitor = tf2_basic.moveit_scene_monitor:main
+moveit_test = tf2_basic.moveit_test:main
+play_recorded_dance = tf2_basic.play_recorded_dance:main
+play_recorded_grip = tf2_basic.play_recorded_grip:main
+static_turtle_tf2_broadcaster = tf2_basic.static_turtle_tf2_broadcaster:main
+teach_manipulator = tf2_basic.teach_manipulator:main
+teach_manipulator_T1 = tf2_basic.teach_manipulator_T1:main
+tf_listener = tf2_basic.tf_listener:main
+turtle_tf_listener = tf2_basic.turtle_tf_listener:main

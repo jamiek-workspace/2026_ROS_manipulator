@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robotis_interfaces/msg/HandPressures.msg
+// generated code does not contain a copyright notice
+
+#include "robotis_interfaces/msg/TactileSensor.idl"
+#include "std_msgs/msg/Header.idl"
+
+module robotis_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Pressure readings for tactile sensors on a ROBOTIS Hand.")
+    struct HandPressures {
+      @verbatim (language="comment", text=
+        "Standard header for timestamps and frame_id.")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Logical hand identifier, for example \"left\" or \"right\".")
+      string hand_name;
+
+      @verbatim (language="comment", text=
+        "Array of tactile sensor readings.")
+      sequence<robotis_interfaces::msg::TactileSensor> sensors;
+    };
+  };
+};

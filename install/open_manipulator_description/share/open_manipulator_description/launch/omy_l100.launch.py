@@ -1,0 +1,1 @@
+/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/src/open_manipulator/open_manipulator_description/launch/omy_l100.launch.py

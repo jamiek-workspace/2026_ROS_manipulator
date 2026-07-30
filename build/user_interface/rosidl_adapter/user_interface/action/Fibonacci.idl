@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from user_interface/action/Fibonacci.action
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module user_interface {
+  module action {
+    struct Fibonacci_Goal {
+      int64 step;
+    };
+    struct Fibonacci_Result {
+      std_msgs::msg::Header header;
+
+      sequence<int64> seq;
+    };
+    struct Fibonacci_Feedback {
+      sequence<int64> temp_seq;
+    };
+  };
+};

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a29dd7f0a5f847e2d50c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "open_manipulator_collision",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "open_manipulator_collision_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_manipulator_collision_uninstall-89b9b827efd4a01b5607.json",
+					"name" : "open_manipulator_collision_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "self_collision_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-self_collision_node-87c3f8a45fbe8b6d7e8b.json",
+					"name" : "self_collision_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b587798c4d6953e284fb.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jamiek/2026_ROS_manipulator/build/open_manipulator_collision",
+		"source" : "/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/src/open_manipulator/open_manipulator_collision"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

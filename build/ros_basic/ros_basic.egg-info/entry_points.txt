@@ -1,4 +1,24 @@
 [console_scripts]
+action_client = ros_basic.action_client:main
+action_server = ros_basic.action_server:main
+action_thread_server = ros_basic.action_thread_server:main
+class_m1_sub = ros_basic.class_m1_sub:main
+class_m2_sub = ros_basic.class_m2_sub:main
+class_msg_pub = ros_basic.class_msg_pub:main
+class_mt_sub = ros_basic.class_mt_sub:main
 class_pub = ros_basic.class_pub:main
 class_sub = ros_basic.class_sub:main
+class_time_pub = ros_basic.class_time_pub:main
+header_pub = ros_basic.header_pub:main
+mv_turtle = ros_basic.mv_turtle:main
+mv_turtle_ns = ros_basic.mv_turtle_ns:main
+my_param = ros_basic.my_param:main
+param_async = ros_basic.param_async:main
+param_launch = ros_basic.param_launch:main
+qos_test_pub = ros_basic.qos_test_pub:main
+qos_test_sub = ros_basic.qos_test_sub:main
+service_client = ros_basic.service_client:main
+service_server = ros_basic.service_server:main
+service_thread_server = ros_basic.service_thread_server:main
 simple_pub = ros_basic.simple_pub:main
+user_int_sub = ros_basic.user_int_sub:main

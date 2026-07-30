@@ -1,0 +1,40 @@
+[0.062s] Invoking command in '/home/jamiek/2026_ROS_manipulator/build/open_manipulator_collision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/src/open_manipulator/open_manipulator_collision -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jamiek/2026_ROS_manipulator/install/open_manipulator_collision
+[1.089s] -- The C compiler identification is GNU 13.3.0
+[1.090s] -- The CXX compiler identification is GNU 13.3.0
+[1.090s] -- Detecting C compiler ABI info
+[1.090s] -- Detecting C compiler ABI info - done
+[1.090s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.090s] -- Detecting C compile features
+[1.090s] -- Detecting C compile features - done
+[1.090s] -- Detecting CXX compiler ABI info
+[1.091s] -- Detecting CXX compiler ABI info - done
+[1.091s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.091s] -- Detecting CXX compile features
+[1.091s] -- Detecting CXX compile features - done
+[1.091s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.091s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.091s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.184s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.308s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.351s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.395s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.444s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.662s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.677s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.941s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.084s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.257s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.975s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.074s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[3.276s] -- Found visualization_msgs: 5.3.8 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[3.397s] -- Found kdl_parser: 2.11.0 (/opt/ros/jazzy/share/kdl_parser/cmake)
+[3.441s] -- Found eigen3_cmake_module: 0.3.1 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[3.443s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.444s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.483s] -- Found urdf: 2.10.1 (/opt/ros/jazzy/share/urdf/cmake)
+[3.808s] -- Configuring done (3.7s)
+[3.867s] -- Generating done (0.0s)
+[3.891s] -- Build files have been written to: /home/jamiek/2026_ROS_manipulator/build/open_manipulator_collision
+[3.973s] Invoked command in '/home/jamiek/2026_ROS_manipulator/build/open_manipulator_collision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jamiek/2026_ROS_manipulator/open_manipulator_ws/src/open_manipulator/open_manipulator_collision -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jamiek/2026_ROS_manipulator/install/open_manipulator_collision
+[3.974s] Invoking command in '/home/jamiek/2026_ROS_manipulator/build/open_manipulator_collision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamiek/2026_ROS_manipulator/ros_ws/install/tf2_basic:/home/jamiek/2026_ROS_manipulator/ros_ws/install/ros_basic:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_teleop:/home/jamiek/2026_ROS_manipulator/open_manipulator_ws/install/open_manipulator_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jamiek/2026_ROS_manipulator/build/open_manipulator_collision -- -j16 -l16
+[4.799s] [ 50%] [32mBuilding CXX object CMakeFiles/self_collision_node.dir/src/self_collision_node.cpp.o[0m

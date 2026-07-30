@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jamiek/2026_ROS_manipulator/build/user_interface/rosidl_generator_py/user_interface/user_interface_s__rosidl_typesupport_fastrtps_c.so" "TARGETS" "user_interface_s__rosidl_typesupport_fastrtps_c" "DESTINATION" "lib/python3.12/site-packages/user_interface")

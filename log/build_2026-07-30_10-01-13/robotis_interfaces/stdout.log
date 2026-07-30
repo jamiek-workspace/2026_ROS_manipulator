@@ -1,0 +1,140 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found builtin_interfaces: 2.0.4 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (8.5s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/jamiek/2026_ROS_manipulator/build/robotis_interfaces
+[  1%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[  3%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  3%] Built target ament_cmake_python_symlink_robotis_interfaces
+running egg_info
+creating robotis_interfaces.egg-info
+writing robotis_interfaces.egg-info/PKG-INFO
+writing dependency_links to robotis_interfaces.egg-info/dependency_links.txt
+writing top-level names to robotis_interfaces.egg-info/top_level.txt
+writing manifest file 'robotis_interfaces.egg-info/SOURCES.txt'
+reading manifest file 'robotis_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'robotis_interfaces.egg-info/SOURCES.txt'
+[  3%] Built target ament_cmake_python_build_robotis_interfaces_egg
+[  3%] Built target robotis_interfaces__rosidl_generator_type_description
+[  3%] Built target robotis_interfaces__rs
+[  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  6%] Built target robotis_interfaces__cpp
+[  7%] [32mBuilding C object CMakeFiles/robotis_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robotis_interfaces/msg/detail/hand_joints__description.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/robotis_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robotis_interfaces/msg/detail/hand_joints__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/robotis_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robotis_interfaces/msg/detail/hand_pressures__description.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/robotis_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robotis_interfaces/msg/detail/tactile_sensor__description.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/robotis_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robotis_interfaces/msg/detail/tactile_sensor__functions.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/robotis_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robotis_interfaces/msg/detail/tactile_sensor__type_support.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/robotis_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robotis_interfaces/msg/detail/hand_joints__type_support.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/robotis_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robotis_interfaces/msg/detail/hand_pressures__type_support.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/robotis_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robotis_interfaces/msg/detail/move_l__type_support.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/robotis_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robotis_interfaces/msg/detail/hand_pressures__functions.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/robotis_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robotis_interfaces/msg/detail/move_l__description.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/robotis_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robotis_interfaces/msg/detail/move_l__functions.c.o[0m
+[ 26%] [32m[1mLinking C shared library librobotis_interfaces__rosidl_generator_c.so[0m
+[ 26%] Built target robotis_interfaces__rosidl_generator_c
+[ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 29%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 30%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 33%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 35%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 36%] [32mBuilding C object CMakeFiles/robotis_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotis_interfaces/msg/detail/move_l__type_support.c.o[0m
+[ 38%] [32mBuilding C object CMakeFiles/robotis_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotis_interfaces/msg/detail/hand_joints__type_support.c.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/robotis_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotis_interfaces/msg/detail/hand_pressures__type_support.c.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/robotis_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotis_interfaces/msg/detail/tactile_sensor__type_support.c.o[0m
+[ 43%] [32m[1mLinking C shared library librobotis_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 43%] Built target robotis_interfaces__rosidl_typesupport_introspection_c
+[ 44%] [32mBuilding CXX object CMakeFiles/robotis_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotis_interfaces/msg/hand_joints__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/robotis_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotis_interfaces/msg/hand_pressures__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/robotis_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotis_interfaces/msg/move_l__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/robotis_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotis_interfaces/msg/tactile_sensor__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/robotis_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotis_interfaces/msg/hand_joints__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/robotis_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotis_interfaces/msg/move_l__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/robotis_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotis_interfaces/msg/hand_pressures__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/robotis_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotis_interfaces/msg/tactile_sensor__type_support.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/robotis_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotis_interfaces/msg/detail/hand_joints__type_support.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/robotis_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotis_interfaces/msg/detail/hand_pressures__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/robotis_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotis_interfaces/msg/detail/tactile_sensor__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/robotis_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotis_interfaces/msg/detail/move_l__type_support.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/robotis_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotis_interfaces/msg/detail/hand_joints__type_support_c.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/robotis_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotis_interfaces/msg/detail/move_l__type_support_c.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/robotis_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotis_interfaces/msg/detail/hand_pressures__type_support_c.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/robotis_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotis_interfaces/msg/detail/tactile_sensor__type_support_c.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/robotis_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotis_interfaces/msg/detail/dds_fastrtps/hand_joints__type_support.cpp.o[0m
+[ 70%] [32m[1mLinking CXX shared library librobotis_interfaces__rosidl_typesupport_c.so[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/robotis_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotis_interfaces/msg/detail/dds_fastrtps/hand_pressures__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/robotis_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotis_interfaces/msg/detail/dds_fastrtps/move_l__type_support.cpp.o[0m
+[ 73%] Built target robotis_interfaces__rosidl_typesupport_c
+[ 75%] [32mBuilding CXX object CMakeFiles/robotis_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotis_interfaces/msg/detail/dds_fastrtps/tactile_sensor__type_support.cpp.o[0m
+[ 76%] [32m[1mLinking CXX shared library librobotis_interfaces__rosidl_typesupport_cpp.so[0m
+[ 76%] Built target robotis_interfaces__rosidl_typesupport_cpp
+[ 78%] [32m[1mLinking CXX shared library librobotis_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 80%] [32m[1mLinking CXX shared library librobotis_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 80%] Built target robotis_interfaces__rosidl_typesupport_introspection_cpp
+[ 81%] [32m[1mLinking CXX shared library librobotis_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 81%] Built target robotis_interfaces__rosidl_typesupport_fastrtps_c
+[ 81%] Built target robotis_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 81%] Built target robotis_interfaces
+[ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 83%] Built target robotis_interfaces__py
+[ 84%] [32mBuilding C object CMakeFiles/robotis_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robotis_interfaces/msg/_hand_joints_s.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/robotis_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robotis_interfaces/msg/_tactile_sensor_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/robotis_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robotis_interfaces/msg/_move_l_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/robotis_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robotis_interfaces/msg/_hand_pressures_s.c.o[0m
+[ 90%] [32m[1mLinking C shared library librobotis_interfaces__rosidl_generator_py.so[0m
+[ 90%] Built target robotis_interfaces__rosidl_generator_py
+[ 92%] [32mBuilding C object CMakeFiles/robotis_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/robotis_interfaces/_robotis_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 93%] [32m[1mLinking C shared module rosidl_generator_py/robotis_interfaces/robotis_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[ 93%] Built target robotis_interfaces_s__rosidl_typesupport_fastrtps_c
+[ 95%] [32mBuilding C object CMakeFiles/robotis_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/robotis_interfaces/_robotis_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 96%] [32m[1mLinking C shared module rosidl_generator_py/robotis_interfaces/robotis_interfaces_s__rosidl_typesupport_c.so[0m
+[ 96%] Built target robotis_interfaces_s__rosidl_typesupport_c
+[ 98%] [32mBuilding C object CMakeFiles/robotis_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/robotis_interfaces/_robotis_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/robotis_interfaces/robotis_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[100%] Built target robotis_interfaces_s__rosidl_typesupport_introspection_c
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/install/robotis_interfaces/share/ament_index/resource_index/rosidl_interfaces/robotis_interfaces
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/install/robotis_interfaces/share/robotis_interfaces/msg/HandJoints.json
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/install/robotis_interfaces/share/robotis_interfaces/msg/HandPressures.json
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/install/robotis_interfaces/share/robotis_interfaces/msg/MoveL.json
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/install/robotis_interfaces/share/robotis_interfaces/msg/TactileSensor.json
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/install/robotis_interfaces/include/robotis_interfaces/robotis_interfaces/msg/detail/hand_joints__functions.h
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/install/robotis_interfaces/include/robotis_interfaces/robotis_interfaces/msg/detail/hand_joints__struct.h
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/install/robotis_interfaces/include/robotis_interfaces/robotis_interfaces/msg/detail/hand_joints__type_support.h
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/install/robotis_interfaces/include/robotis_interfaces/robotis_interfaces/msg/detail/hand_pressures__functions.h
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/install/robotis_interfaces/include/robotis_interfaces/robotis_interfaces/msg/detail/hand_pressures__struct.h
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/install/robotis_interfaces/include/robotis_interfaces/robotis_interfaces/msg/detail/hand_pressures__type_support.h
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/install/robotis_interfaces/include/robotis_interfaces/robotis_interfaces/msg/detail/move_l__functions.h
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/install/robotis_interfaces/include/robotis_interfaces/robotis_interfaces/msg/detail/move_l__struct.h
+-- Symlinking: /home/jamiek/2026_ROS_manipulator/install/robotis_interfaces/include/robotis_interfaces/robotis_interfaces/msg/detail/move_l__type_support.h

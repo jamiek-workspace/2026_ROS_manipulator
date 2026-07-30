@@ -1,0 +1,46 @@
+[3.525s] Invoking command in '/home/jamiek/2026_ROS_manipulator/build/ros_basic': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jamiek/2026_ROS_manipulator/build/ros_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jamiek/2026_ROS_manipulator/build/ros_basic/build --no-deps symlink_data
+[4.604s] running develop
+[4.671s] running egg_info
+[4.748s] writing ros_basic.egg-info/PKG-INFO
+[4.748s] writing dependency_links to ros_basic.egg-info/dependency_links.txt
+[4.748s] writing entry points to ros_basic.egg-info/entry_points.txt
+[4.748s] writing requirements to ros_basic.egg-info/requires.txt
+[4.748s] writing top-level names to ros_basic.egg-info/top_level.txt
+[4.837s] reading manifest file 'ros_basic.egg-info/SOURCES.txt'
+[4.847s] writing manifest file 'ros_basic.egg-info/SOURCES.txt'
+[4.915s] running build_ext
+[4.916s] Creating /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/python3.12/site-packages/ros-basic.egg-link (link to .)
+[4.917s] Installing action_client script to /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/ros_basic
+[4.918s] Installing action_server script to /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/ros_basic
+[4.918s] Installing action_thread_server script to /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/ros_basic
+[4.918s] Installing class_m1_sub script to /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/ros_basic
+[4.921s] Installing class_m2_sub script to /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/ros_basic
+[4.921s] Installing class_msg_pub script to /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/ros_basic
+[4.922s] Installing class_mt_sub script to /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/ros_basic
+[4.922s] Installing class_pub script to /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/ros_basic
+[4.922s] Installing class_sub script to /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/ros_basic
+[4.922s] Installing class_time_pub script to /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/ros_basic
+[4.922s] Installing header_pub script to /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/ros_basic
+[4.922s] Installing mv_turtle script to /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/ros_basic
+[4.922s] Installing mv_turtle_ns script to /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/ros_basic
+[4.922s] Installing my_param script to /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/ros_basic
+[4.924s] Installing param_async script to /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/ros_basic
+[4.925s] Installing param_launch script to /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/ros_basic
+[4.925s] Installing qos_test_pub script to /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/ros_basic
+[4.925s] Installing qos_test_sub script to /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/ros_basic
+[4.925s] Installing service_client script to /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/ros_basic
+[4.925s] Installing service_server script to /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/ros_basic
+[4.925s] Installing service_thread_server script to /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/ros_basic
+[4.925s] Installing simple_pub script to /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/ros_basic
+[4.925s] Installing user_int_sub script to /home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/ros_basic
+[4.925s] 
+[4.925s] Installed /home/jamiek/2026_ROS_manipulator/build/ros_basic
+[4.926s] running symlink_data
+[4.926s] creating /home/jamiek/2026_ROS_manipulator/install/ros_basic/share/ros_basic/launch
+[4.926s] symbolically linking /home/jamiek/2026_ROS_manipulator/build/ros_basic/launch/param.launch.py -> /home/jamiek/2026_ROS_manipulator/install/ros_basic/share/ros_basic/launch
+[4.926s] symbolically linking /home/jamiek/2026_ROS_manipulator/build/ros_basic/launch/hello.launch.py -> /home/jamiek/2026_ROS_manipulator/install/ros_basic/share/ros_basic/launch
+[4.926s] symbolically linking /home/jamiek/2026_ROS_manipulator/build/ros_basic/launch/two_turtle.launch.py -> /home/jamiek/2026_ROS_manipulator/install/ros_basic/share/ros_basic/launch
+[4.926s] creating /home/jamiek/2026_ROS_manipulator/install/ros_basic/share/ros_basic/param
+[4.926s] symbolically linking /home/jamiek/2026_ROS_manipulator/build/ros_basic/param/my_param.yaml -> /home/jamiek/2026_ROS_manipulator/install/ros_basic/share/ros_basic/param
+[4.926s] symbolically linking /home/jamiek/2026_ROS_manipulator/build/ros_basic/param/turtlesim.yaml -> /home/jamiek/2026_ROS_manipulator/install/ros_basic/share/ros_basic/param
+[5.113s] Invoked command in '/home/jamiek/2026_ROS_manipulator/build/ros_basic' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jamiek/2026_ROS_manipulator/build/ros_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jamiek/2026_ROS_manipulator/install/ros_basic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jamiek/2026_ROS_manipulator/build/ros_basic/build --no-deps symlink_data

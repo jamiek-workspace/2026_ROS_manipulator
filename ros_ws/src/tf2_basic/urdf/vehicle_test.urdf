@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<robot name="vehicle_1">
+
+  <link name="chassis">
+    <visual>
+      <origin xyz="-0.151427 0 0.175"/>
+      <geometry>
+        <box size="2.01142 1.0 0.568726"/>
+      </geometry>
+      <material name="chassis_blue">
+        <color rgba="0.5 0.5 1.0 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="left_wheel">
+    <visual>
+      <geometry>
+        <sphere radius="0.3"/>
+      </geometry>
+      <material name="wheel_black">
+        <color rgba="0.2 0.2 0.2 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <joint name="left_wheel_joint" type="continuous">
+    <parent link="chassis"/>
+    <child link="left_wheel"/>
+    <origin xyz="0.554283 0.625029 -0.025"
+            rpy="-1.5707 0 0"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <link name="right_wheel">
+    <visual>
+      <geometry>
+        <sphere radius="0.3"/>
+      </geometry>
+      <material name="wheel_black"/>
+    </visual>
+  </link>
+
+  <joint name="right_wheel_joint" type="continuous">
+    <parent link="chassis"/>
+    <child link="right_wheel"/>
+    <origin xyz="0.554282 -0.625029 -0.025"
+            rpy="-1.5707 0 0"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <link name="caster">
+    <visual>
+      <geometry>
+        <sphere radius="0.2"/>
+      </geometry>
+      <material name="wheel_black"/>
+    </visual>
+  </link>
+
+  <!-- URDF에는 ball joint가 없으므로 RViz용으로 fixed 처리 -->
+  <joint name="caster_wheel" type="fixed">
+    <parent link="chassis"/>
+    <child link="caster"/>
+    <origin xyz="-0.957138 0 -0.125"/>
+  </joint>
+
+</robot>

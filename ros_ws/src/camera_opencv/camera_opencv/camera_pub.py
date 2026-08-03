@@ -52,6 +52,11 @@ class Camera_pub(Node):
         ret, frame = self.cap.read()
         if not ret:
             return
+        # 도형 그리기
+        cv2.rectangle(frame, (10, 10), (self.width - 10, self.height - 10), (230, 126, 173), 3)
+
+
+        
         cv2.imshow("Camera", frame)
         key = cv2.waitKey(3)  # 처리 기간이 필요 milliseconse
         img = self.brige.cv2_to_imgmsg(frame, encoding="bgr8")

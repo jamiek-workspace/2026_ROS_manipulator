@@ -23,7 +23,9 @@ setup(
         ],
     },
     entry_points={
-        'console_scripts': [ "img_show = camera_opencv.img_show:main"
+        'console_scripts': [
+            "img_show = camera_opencv.img_show:main",
+            "img_pub = camera_opencv.img_pub:main"
         ],
     },
 )

@@ -21,7 +21,7 @@ class M_pub(Node):
         if self.brightness > 255:
             self.brightness = 0
         key = cv2.waitKey(30)  # 처리 기간이 필요
-        if key == "q":
+        if key == ord("q"):
             raise KeyboardInterrupt 
 
 

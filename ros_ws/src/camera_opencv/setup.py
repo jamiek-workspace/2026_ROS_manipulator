@@ -30,6 +30,7 @@ setup(
             "img_compressed_pub = camera_opencv.img_compressed_pub:main",
             "img_compressed_sub = camera_opencv.img_compressed_sub:main",
             "camera_pub = camera_opencv.camera_pub:main",
+            "circle_follow = camera_opencv.circle_follow:main",
         ],
     },
 )

@@ -12,7 +12,11 @@ def main():
     while True:
         white_img = np.full((600, 600, 3), 255, dtype=np.uint8)
         diff += 1
+        # pt1, pt2
         cv2.rectangle(white_img, pt1, (400 - diff, 400 - diff), (0, 255, 0), 2)
+        # overloading 되어 있다. - rect(x, y, width, height)
+        cv2.rectangle(white_img, (100, 100, 400 - diff, 400 - diff), (0, 255, 0), 2)
+
         cv2.line(white_img, (0, 0), (500, diff), (255, 0, 0), 5)
         cv2.line(white_img, (0, 0), (diff, 500), (0, 0, 255), 5)
         cv2.imshow("white", white_img)

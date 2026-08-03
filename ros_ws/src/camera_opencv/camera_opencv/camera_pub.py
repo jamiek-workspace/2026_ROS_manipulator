@@ -53,7 +53,32 @@ class Camera_pub(Node):
         if not ret:
             return
         # 도형 그리기
-        cv2.rectangle(frame, (10, 10), (self.width - 10, self.height - 10), (230, 126, 173), 3)
+        # cv2.rectangle(frame, (10, 10), (self.width - 10, self.height - 10), (230, 126, 173), 3)
+        color = (230, 126, 173)
+        t = 3
+        l = 35
+
+        # 좌상
+        cv2.line(frame, (10,10), (10+l,10), color, t)
+        cv2.line(frame, (10,10), (10,10+l), color, t)
+
+        # 우상
+        cv2.line(frame, (self.width-10,10), (self.width-10-l,10), color, t)
+        cv2.line(frame, (self.width-10,10), (self.width-10,10+l), color, t)
+
+        # 좌하
+        cv2.line(frame, (10,self.height-10), (10+l,self.height-10), color, t)
+        cv2.line(frame, (10,self.height-10), (10,self.height-10-l), color, t)
+
+        # 우하
+        cv2.line(frame,
+                (self.width-10,self.height-10),
+                (self.width-10-l,self.height-10),
+                color, t)
+        cv2.line(frame,
+                (self.width-10,self.height-10),
+                (self.width-10,self.height-10-l),
+                color, t)
 
 
         

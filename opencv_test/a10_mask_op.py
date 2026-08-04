@@ -28,6 +28,7 @@ def main():
     cv2.imshow("background", bg)
     cv2.imshow("logo", logo)
     cv2.waitKey()  # 블럭 함수
+    cv2.destroyAllWindows
 
 
 if __name__ == "__main__":

@@ -32,6 +32,7 @@ setup(
             "camera_pub = camera_opencv.camera_pub:main",
             "circle_follow = camera_opencv.circle_follow:main",
             "event_draw = camera_opencv.event_draw:main",
+            "find_redball = camera_opencv.find_redball:main",
         ],
     },
 )

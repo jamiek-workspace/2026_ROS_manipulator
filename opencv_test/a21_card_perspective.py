@@ -3,174 +3,191 @@ from pathlib import Path
 import cv2
 import numpy as np
 
-# 마우스로 선택한 점을 저장한다.
 clicked_points = []
 
 
-def order_points(points):
-    """
-    4개의 점을 다음 순서로 정렬한다.
-
-    0: 왼쪽 위
-    1: 오른쪽 위
-    2: 오른쪽 아래
-    3: 왼쪽 아래
-    """
-    points = np.array(points, dtype=np.float32)
-
-    ordered = np.zeros((4, 2), dtype=np.float32)
-
-    # x + y 값
-    point_sum = points.sum(axis=1)
-
-    # x - y 값
-    point_diff = np.diff(points, axis=1).reshape(-1)
-
-    # 합이 가장 작은 점: 왼쪽 위
-    ordered[0] = points[np.argmin(point_sum)]
-
-    # 차이가 가장 작은 점: 오른쪽 위
-    ordered[1] = points[np.argmin(point_diff)]
-
-    # 합이 가장 큰 점: 오른쪽 아래
-    ordered[2] = points[np.argmax(point_sum)]
-
-    # 차이가 가장 큰 점: 왼쪽 아래
-    ordered[3] = points[np.argmax(point_diff)]
-
-    return ordered
-
-
 def mouse_callback(event, x, y, flags, param):
-    display_img = param
+    """마우스 클릭 좌표만 저장한다."""
+    if event != cv2.EVENT_LBUTTONDOWN:
+        return
 
-    if event == cv2.EVENT_LBUTTONDOWN:
-        # 점은 최대 4개까지만 선택한다.
-        if len(clicked_points) >= 4:
-            return
+    if len(clicked_points) >= 4:
+        return
 
-        clicked_points.append((x, y))
+    clicked_points.append((x, y))
+    print(f"{len(clicked_points)}번 좌표: ({x}, {y})")
 
-        point_number = len(clicked_points)
 
-        # 클릭한 위치에 점 표시
-        cv2.circle(display_img, (x, y), 6, (0, 0, 255), -1)
+def draw_points_and_lines(img, points):
+    """
+    원본 영상의 복사본에 선택된 점과 선을 그린다.
 
-        # 클릭 순서 표시
+    점 입력 순서:
+    1: top-left
+    2: top-right
+    3: bottom-right
+    4: bottom-left
+    """
+    display = img.copy()
+
+    point_names = ["TL", "TR", "BR", "BL"]
+
+    # 안내 문구
+    cv2.putText(
+        display,
+        "Click: 1-TL, 2-TR, 3-BR, 4-BL",
+        (10, 25),
+        cv2.FONT_HERSHEY_SIMPLEX,
+        0.6,
+        (0, 255, 255),
+        2,
+    )
+
+    cv2.putText(
+        display,
+        "r: reset, q/ESC: quit",
+        (10, 50),
+        cv2.FONT_HERSHEY_SIMPLEX,
+        0.6,
+        (0, 255, 255),
+        2,
+    )
+
+    # 선택된 점과 번호를 표시한다.
+    for i, point in enumerate(points):
+        x, y = point
+
+        cv2.circle(
+            display,
+            (x, y),
+            6,
+            (0, 0, 255),
+            -1,
+        )
+
         cv2.putText(
-            display_img,
-            str(point_number),
+            display,
+            f"{i + 1}:{point_names[i]}",
             (x + 8, y - 8),
             cv2.FONT_HERSHEY_SIMPLEX,
-            0.7,
+            0.6,
             (0, 255, 0),
             2,
         )
 
-        # 이전 점과 현재 점 연결
-        if point_number >= 2:
-            cv2.line(
-                display_img,
-                clicked_points[-2],
-                clicked_points[-1],
-                (255, 0, 0),
-                2,
-            )
+    # 클릭한 순서대로 선을 연결한다.
+    for i in range(1, len(points)):
+        cv2.line(
+            display,
+            points[i - 1],
+            points[i],
+            (255, 0, 0),
+            2,
+        )
 
-        # 네 번째 점을 찍으면 첫 번째 점과 연결
-        if point_number == 4:
-            cv2.line(
-                display_img,
-                clicked_points[3],
-                clicked_points[0],
-                (255, 0, 0),
-                2,
-            )
+    # 네 점이 모두 선택되면 마지막 점과 첫 점을 연결한다.
+    if len(points) == 4:
+        cv2.line(
+            display,
+            points[3],
+            points[0],
+            (255, 0, 0),
+            2,
+        )
 
-        cv2.imshow("Select 4 Points", display_img)
+    return display
 
 
 def main():
-    global clicked_points
+    image_path = Path(__file__).parent / "data" / "card.bmp"
 
-    file_path = Path("/home/jamiek/2026_ROS_manipulator/opencv_test/data/card.bmp")
-
-    img = cv2.imread(str(file_path))
+    img = cv2.imread(str(image_path))
 
     if img is None:
-        print(f"이미지를 불러올 수 없습니다: {file_path}")
+        print(f"이미지를 불러올 수 없습니다: {image_path}")
         return
 
-    # 원본 이미지를 직접 수정하지 않도록 복사한다.
-    display_img = img.copy()
+    # 원근 변환 결과 크기: 가로 150, 세로 250
+    output_width = 150
+    output_height = 250
 
-    cv2.namedWindow("Select 4 Points")
-    cv2.setMouseCallback("Select 4 Points", mouse_callback, display_img)
+    window_name = "Select 4 Points"
 
-    print("카드의 꼭짓점 4개를 마우스 왼쪽 버튼으로 클릭하세요.")
-    print("클릭 순서는 상관없습니다.")
-    print("r: 선택 초기화")
+    cv2.namedWindow(window_name)
+    cv2.setMouseCallback(window_name, mouse_callback)
+
+    print("다음 순서대로 클릭하세요.")
+    print("1: 왼쪽 위     top-left")
+    print("2: 오른쪽 위   top-right")
+    print("3: 오른쪽 아래 bottom-right")
+    print("4: 왼쪽 아래   bottom-left")
+    print("r: 초기화")
     print("q 또는 ESC: 종료")
 
+    transformed = False
+
     while True:
-        cv2.imshow("Select 4 Points", display_img)
+        # 매 프레임 원본 이미지에서 다시 그리므로 점과 선이 사라지지 않는다.
+        display_img = draw_points_and_lines(img, clicked_points)
+        cv2.imshow(window_name, display_img)
 
-        key = cv2.waitKey(10) & 0xFF
-
-        # 4개의 점이 모두 선택되면 원근 변환 실행
-        if len(clicked_points) == 4:
-            src_pts = order_points(clicked_points)
-
-            # 결과 영상 크기
-            output_width = 300
-            output_height = 200
+        if len(clicked_points) == 4 and not transformed:
+            # 클릭한 순서를 그대로 사용한다.
+            src_pts = np.array(
+                clicked_points,
+                dtype=np.float32,
+            )
 
             dst_pts = np.array(
                 [
-                    [0, 0],
-                    [output_width - 1, 0],
-                    [output_width - 1, output_height - 1],
-                    [0, output_height - 1],
+                    [0, 0],  # TL
+                    [output_width - 1, 0],  # TR
+                    [output_width - 1, output_height - 1],  # BR
+                    [0, output_height - 1],  # BL
                 ],
                 dtype=np.float32,
             )
 
-            perspective_matrix = cv2.getPerspectiveTransform(src_pts, dst_pts)
+            # Perspective 변환 행렬 M 계산
+            M = cv2.getPerspectiveTransform(
+                src_pts,
+                dst_pts,
+            )
 
             result = cv2.warpPerspective(
                 img,
-                perspective_matrix,
+                M,
                 (output_width, output_height),
             )
 
+            print("\n입력된 좌표")
+            print(f"TL: {src_pts[0]}")
+            print(f"TR: {src_pts[1]}")
+            print(f"BR: {src_pts[2]}")
+            print(f"BL: {src_pts[3]}")
+
+            print("\nPerspective Transform Matrix M")
+            print(M)
+
             cv2.imshow("Perspective Result", result)
 
-            # 같은 네 점으로 계속 변환하지 않도록 대기
-            while True:
-                result_key = cv2.waitKey(0) & 0xFF
+            transformed = True
 
-                if result_key == ord("r"):
-                    clicked_points.clear()
-                    display_img[:] = img
-                    cv2.destroyWindow("Perspective Result")
-                    break
+        key = cv2.waitKey(10) & 0xFF
 
-                if result_key == ord("q") or result_key == 27:
-                    cv2.destroyAllWindows()
-                    return
-
-        # r 키를 누르면 선택 초기화
         if key == ord("r"):
             clicked_points.clear()
-            display_img[:] = img
+            transformed = False
 
             try:
                 cv2.destroyWindow("Perspective Result")
             except cv2.error:
                 pass
 
-        # q 또는 ESC 키로 종료
-        if key == ord("q") or key == 27:
+            print("\n좌표를 초기화했습니다.")
+            print("TL -> TR -> BR -> BL 순서로 다시 클릭하세요.")
+
+        elif key == ord("q") or key == 27:
             break
 
     cv2.destroyAllWindows()

@@ -39,6 +39,14 @@
   <!-- launch 파일 실행 -->
   <exec_depend>launch</exec_depend>
   <exec_depend>launch_ros</exec_depend>
+  <exec_depend>python3-opencv</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+
+  <exec_depend>std_srvs</exec_depend>
+  <exec_depend>moveit_msgs</exec_depend>
+  <exec_depend>moveit_py</exec_depend>
+  <exec_depend>shape_msgs</exec_depend>
 
   <!-- 테스트 -->
   <test_depend>ament_copyright</test_depend>

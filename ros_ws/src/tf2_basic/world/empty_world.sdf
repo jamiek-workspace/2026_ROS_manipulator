@@ -139,7 +139,7 @@
     <include>
       <uri>model://aruco_cube</uri>
       <name>aruco_cube_1</name>
-      <pose>1 0 0.02 0 0 0</pose>
+      <pose>0.25 0 0.02 0 0 0</pose>
     </include>
 
     <light name='sun' type='directional'>

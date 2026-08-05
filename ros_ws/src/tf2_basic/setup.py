@@ -76,6 +76,8 @@ setup(
             "moveit_attached = tf2_basic.moveit_attached:main",
             "moveit_mini_project = tf2_basic.moveit_mini_project:main",
             "moveit_mini_project_thread = tf2_basic.moveit_mini_project_thread:main",
+            "aruco_tf_node = tf2_basic.aruco_tf_node:main",
+            "aruco_pick_node = tf2_basic.aruco_pick_node:main",
         ],
     },
 )

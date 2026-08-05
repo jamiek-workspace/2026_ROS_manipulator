@@ -48,6 +48,9 @@
   <exec_depend>moveit_py</exec_depend>
   <exec_depend>shape_msgs</exec_depend>
 
+  <exec_depend>moveit_configs_utils</exec_depend>
+  <exec_depend>open_manipulator_moveit_config</exec_depend>
+
   <!-- 테스트 -->
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

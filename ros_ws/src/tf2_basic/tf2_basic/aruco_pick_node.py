@@ -17,6 +17,7 @@ from rclpy.node import Node
 from rclpy.time import Time
 from std_srvs.srv import Trigger
 from tf2_ros import Buffer, TransformException, TransformListener
+from moveit.planning import MoveItPy
 
 
 class PickState(Enum):
@@ -62,6 +63,10 @@ class ArucoPickNode(Node):
         # 처음에는 자동 실행을 끄는 것을 권장
         self.declare_parameter("auto_start", False)
 
+        self.declare_parameter("arm_group", "arm")
+        self.declare_parameter("end_effector_link", "end_effector_link")
+        self.declare_parameter("arm_controller", "arm_controller")
+
         self.planning_frame = str(
             self.get_parameter("planning_frame").value
         )
@@ -87,6 +92,18 @@ class ArucoPickNode(Node):
         )
         self.auto_start = bool(
             self.get_parameter("auto_start").value
+        )
+
+        self.arm_group = str(
+            self.get_parameter("arm_group").value
+        )
+
+        self.end_effector_link = str(
+            self.get_parameter("end_effector_link").value
+        )
+
+        self.arm_controller = str(
+            self.get_parameter("arm_controller").value
         )
 
         if self.stable_sample_count < 2:
@@ -122,6 +139,26 @@ class ArucoPickNode(Node):
         self.state = PickState.WAITING_FOR_MARKER
         self.pick_started = False
         self.pick_lock = threading.Lock()
+
+        # ---------------------------------------------------------
+        # MoveItPy
+        # ---------------------------------------------------------
+        self.get_logger().info("MoveItPy 초기화 중...")
+
+        self.moveit = MoveItPy(
+            node_name="aruco_pick_moveit_py"
+        )
+
+        self.arm = self.moveit.get_planning_component(
+            self.arm_group
+        )
+
+        self.get_logger().info(
+            "MoveItPy 초기화 완료: "
+            f"arm_group={self.arm_group}, "
+            f"end_effector_link={self.end_effector_link}, "
+            f"controller={self.arm_controller}"
+        )
 
         # ---------------------------------------------------------
         # Service
@@ -309,14 +346,77 @@ class ArucoPickNode(Node):
     # ---------------------------------------------------------
     # Pick sequence
     # ---------------------------------------------------------
+
+    def move_to_pose(
+        self,
+        target_pose: PoseStamped,
+    ) -> bool:
+        """Plan and execute an arm motion to a PoseStamped target."""
+
+        self.get_logger().info(
+            "MoveIt pose 목표 설정: "
+            f"{self.pose_to_text(target_pose)}, "
+            f"frame={target_pose.header.frame_id}, "
+            f"pose_link={self.end_effector_link}"
+        )
+
+        try:
+            # 현재 관절 상태를 planning 시작 상태로 사용한다.
+            self.arm.set_start_state_to_current_state()
+
+            # end_effector_link가 target_pose에 도달하도록 목표를 설정한다.
+            self.arm.set_goal_state(
+                pose_stamped_msg=target_pose,
+                pose_link=self.end_effector_link,
+            )
+
+            self.get_logger().info("MoveIt 경로 계획 중...")
+
+            plan_result = self.arm.plan()
+
+            if plan_result is None:
+                self.get_logger().error(
+                    "MoveIt 경로 계획에 실패했습니다: plan_result=None"
+                )
+                return False
+
+            if not hasattr(plan_result, "trajectory"):
+                self.get_logger().error(
+                    "MoveIt 계획 결과에 trajectory가 없습니다."
+                )
+                return False
+
+            self.get_logger().info(
+                "경로 계획 성공. Trajectory를 실행합니다."
+            )
+
+            self.moveit.execute(
+                plan_result.trajectory,
+                controllers=[self.arm_controller],
+            )
+
+            self.get_logger().info(
+                "Pose 목표 이동 명령을 완료했습니다."
+            )
+            return True
+
+        except Exception as error:
+            self.get_logger().error(
+                f"Pose 목표 이동 실패: {error!r}"
+            )
+            return False
+
+
     def execute_pick_sequence(self) -> None:
-        """Execute pre-grasp, grasp, close, attach, and lift stages."""
+        """Execute the current ArUco pick test sequence."""
 
         try:
             marker_transform = self.stable_marker_transform
 
             if marker_transform is None:
-                raise RuntimeError("안정된 마커 Transform이 없습니다.")
+                raise RuntimeError(
+                    "안정된 마커 Transform이 없습니다."
+                )
 
             pre_grasp_pose = self.create_target_pose(
                 marker_transform=marker_transform,
@@ -347,7 +447,27 @@ class ArucoPickNode(Node):
             # STEP 1: pre-grasp
             # -------------------------------------------------
             self.state = PickState.MOVING_TO_PRE_GRASP
-            self.get_logger().info("[1/6] Pre-grasp 위치로 이동 예정")
+            self.get_logger().info(
+                "[1/6] Pre-grasp 위치로 이동 시작"
+            )
+
+            if not self.move_to_pose(pre_grasp_pose):
+                raise RuntimeError(
+                    "Pre-grasp 위치로 이동하지 못했습니다."
+                )
+
+            self.state = PickState.DONE
+            self.get_logger().info(
+                "[1/6] Pre-grasp 이동 시험 완료. "
+                "현재 버전에서는 이후 동작을 실행하지 않습니다."
+            )
+            return
+
+        except Exception as error:
+            self.state = PickState.ERROR
+            self.get_logger().error(
+                f"Pick sequence 실패: {error!r}"
+            )
 
             # 다음 단계에서 구현:
             # self.move_to_pose(pre_grasp_pose)

@@ -33,6 +33,8 @@ setup(
             "circle_follow = camera_opencv.circle_follow:main",
             "event_draw = camera_opencv.event_draw:main",
             "find_redball = camera_opencv.find_redball:main",
+            "detect_aruco = camera_opencv.detect_aruco:main",
+            "camera_Canny = camera_opencv.camera_Canny:main",
         ],
     },
 )

@@ -9,6 +9,7 @@ def main():
     img = np.zeros((500, 500, 1), dtype=np.uint8)
     cv2.imshow("img", img)
     cv2.waitKey()  # 블럭 함수
+    cv2.destroyAllWindows()
 
 
 if __name__ == "__main__":

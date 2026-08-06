@@ -35,6 +35,7 @@ setup(
             "find_redball = camera_opencv.find_redball:main",
             "detect_aruco = camera_opencv.detect_aruco:main",
             "camera_Canny = camera_opencv.camera_Canny:main",
+            "match_orb = camera_opencv.match_orb:main",
         ],
     },
 )

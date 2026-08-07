@@ -36,6 +36,7 @@ setup(
             "detect_aruco = camera_opencv.detect_aruco:main",
             "camera_Canny = camera_opencv.camera_Canny:main",
             "match_orb = camera_opencv.match_orb:main",
+            "camera_yolo = camera_opencv.camera_yolo:main",
         ],
     },
 )

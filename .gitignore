@@ -11,3 +11,5 @@ __pycache__/
 .vscode/
 
 .venv/
+
+frozen_inference_graph.pb
